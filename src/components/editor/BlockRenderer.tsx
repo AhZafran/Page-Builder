@@ -99,8 +99,11 @@ export function BlockRenderer({ block, sectionId, index = 0, isSelected: isSelec
         return <FAQBlockComponent block={block} />
       case 'space':
         return <SpaceBlockComponent block={block} />
-      default:
-        return <div className="p-4 bg-red-50 text-red-600 text-sm">Unknown block type: {block.type}</div>
+      default: {
+        // Exhaustiveness check - this should never be reached
+        const _exhaustiveCheck: never = block
+        return <div className="p-4 bg-red-50 text-red-600 text-sm">Unknown block type</div>
+      }
     }
   }
 
