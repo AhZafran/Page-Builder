@@ -71,7 +71,7 @@ export function DraftRestorationDialog({
           <AlertDialogTitle>Unsaved Changes Detected</AlertDialogTitle>
           <AlertDialogDescription className="space-y-3">
             <p>
-              We found a local draft that's newer than the version saved in the cloud. Which
+              We found a local draft that&apos;s newer than the version saved in the cloud. Which
               version would you like to use?
             </p>
             <div className="space-y-2 text-sm">
