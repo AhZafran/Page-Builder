@@ -68,7 +68,7 @@ export async function importPageFromJSON(file: File): Promise<{
     const validation = validatePageData(parsed)
 
     if (!validation.success) {
-      const errors = validation.error.errors.map(e => `${e.path.join('.')}: ${e.message}`).join(', ')
+      const errors = validation.error.issues.map(e => `${e.path.join('.')}: ${e.message}`).join(', ')
       return {
         success: false,
         error: `Validation failed: ${errors}`

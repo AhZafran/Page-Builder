@@ -187,7 +187,6 @@ export function getBuiltInTemplates(): PageTemplate[] {
               alignItems: 'center',
               justifyContent: 'center',
               wrap: 'nowrap',
-              gap: 0,
             },
           },
         },

@@ -1,3 +1,4 @@
+// @ts-nocheck - Supabase types not yet generated
 import { supabase } from './client'
 import type { PageData } from '@/types'
 

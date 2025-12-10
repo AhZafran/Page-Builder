@@ -29,11 +29,13 @@ export function Canvas() {
         setCurrentPage(saved.data)
       } else {
         // Create a sample page with one section
-        const sampleSection = createDefaultSection([createDefaultTextBlock()])
-        sampleSection.blocks[0].content = 'Welcome to Page Builder'
-        sampleSection.blocks[0].style.fontSize = 32
-        sampleSection.blocks[0].style.fontWeight = 700
-        sampleSection.blocks[0].style.textAlign = 'center'
+        const textBlock = createDefaultTextBlock()
+        textBlock.content = 'Welcome to Page Builder'
+        textBlock.style.fontSize = 32
+        textBlock.style.fontWeight = 700
+        textBlock.style.textAlign = 'center'
+
+        const sampleSection = createDefaultSection([textBlock])
 
         setCurrentPage({
           id: DEFAULT_PAGE_ID,

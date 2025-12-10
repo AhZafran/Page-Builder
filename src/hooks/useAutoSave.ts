@@ -8,7 +8,7 @@ import { saveToLocalStorage, clearAllAutoSaves, getLocalStorageSize } from '@/li
  */
 export function useAutoSave(intervalMs: number = 3000) {
   const { currentPage, isDirty } = useEditorStore()
-  const timeoutRef = useRef<NodeJS.Timeout>()
+  const timeoutRef = useRef<NodeJS.Timeout | undefined>(undefined)
   const [hasShownQuotaWarning, setHasShownQuotaWarning] = useState(false)
 
   useEffect(() => {
