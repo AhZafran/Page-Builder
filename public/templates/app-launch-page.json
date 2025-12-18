@@ -1,0 +1,323 @@
+{
+  "id": "template-app-launch-001",
+  "name": "App Launch Page",
+  "slug": "app-launch-page",
+  "sections": [
+    {
+      "id": "hero-section",
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "padding": { "top": 120, "right": 24, "bottom": 120, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "hero-badge",
+          "type": "text",
+          "content": "NOW AVAILABLE",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 14,
+            "fontWeight": 700,
+            "color": "#e0f2fe",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 8, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "app-name",
+          "type": "text",
+          "content": "FlowTask",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 64,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "app-tagline",
+          "type": "text",
+          "content": "The Smart Way to Organize Your Life",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 28,
+            "fontWeight": 400,
+            "color": "#e0f2fe",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "app-description",
+          "type": "text",
+          "content": "Boost your productivity with AI-powered task management. Smart scheduling, intelligent reminders, and seamless collaboration all in one beautiful app.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#bae6fd",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 32, "bottom": 16, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 40, "left": 0 }
+          }
+        },
+        {
+          "id": "download-button",
+          "type": "button",
+          "text": "Download for Free",
+          "href": "#download",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "color": "#0ea5e9",
+            "fontSize": 18,
+            "fontWeight": 700,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 50,
+            "layout": "center",
+            "padding": { "top": 16, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "platform-info",
+          "type": "text",
+          "content": "Available on iOS, Android, and Web",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 14,
+            "fontWeight": 500,
+            "color": "#e0f2fe",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 0, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "features-section",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "features-title",
+          "type": "text",
+          "content": "Powerful Features",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#1e293b",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-1",
+          "type": "text",
+          "content": "🤖 AI-Powered Smart Scheduling\nAutomatically organize your tasks based on priority, deadlines, and your work patterns.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#334155",
+            "textAlign": "center",
+            "backgroundColor": "#f8fafc",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-2",
+          "type": "text",
+          "content": "👥 Seamless Team Collaboration\nShare projects, assign tasks, and track progress together in real-time.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#334155",
+            "textAlign": "center",
+            "backgroundColor": "#f8fafc",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-3",
+          "type": "text",
+          "content": "🔔 Smart Reminders\nNever miss a deadline with context-aware notifications that learn your preferences.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#334155",
+            "textAlign": "center",
+            "backgroundColor": "#f8fafc",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-4",
+          "type": "text",
+          "content": "☁️ Cross-Platform Sync\nAccess your tasks anywhere, anytime. Seamlessly synced across all your devices.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#334155",
+            "textAlign": "center",
+            "backgroundColor": "#f8fafc",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "stats-section",
+      "style": {
+        "backgroundColor": "#f1f5f9",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "stats-title",
+          "type": "text",
+          "content": "Join Millions of Users",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#1e293b",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "stats-grid",
+          "type": "text",
+          "content": "2M+ Downloads • 4.8★ App Store Rating • 50M+ Tasks Completed • Featured by Apple & Google",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "color": "#0ea5e9",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 32, "bottom": 16, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "testimonial",
+          "type": "text",
+          "content": "\"FlowTask has completely transformed how I manage my day. I'm 3x more productive and never miss important deadlines anymore!\" - Jessica R., Product Manager",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "fontStyle": "italic",
+            "color": "#475569",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 32, "right": 40, "bottom": 32, "left": 40 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "cta-title",
+          "type": "text",
+          "content": "Start Being More Productive Today",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "cta-subtitle",
+          "type": "text",
+          "content": "Free forever. Premium features available. No credit card required.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e0f2fe",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 40, "left": 0 }
+          }
+        },
+        {
+          "id": "final-cta",
+          "type": "button",
+          "text": "Download FlowTask",
+          "href": "#download",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "color": "#0ea5e9",
+            "fontSize": 18,
+            "fontWeight": 700,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 50,
+            "layout": "center",
+            "padding": { "top": 16, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    }
+  ]
+}

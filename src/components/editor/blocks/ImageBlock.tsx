@@ -3,7 +3,7 @@
 import type { ImageBlock } from '@/types'
 import { LazyImage } from '@/components/ui/lazy-image'
 import { cn } from '@/lib/utils'
-import { sanitizeURL } from '@/lib/security'
+import { sanitizeImageURL } from '@/lib/security'
 
 interface ImageBlockComponentProps {
   block: ImageBlock
@@ -30,8 +30,8 @@ export function ImageBlockComponent({ block }: ImageBlockComponentProps) {
     height: block.style.height || 'auto',
   }
 
-  // Sanitize the image URL
-  const sanitizedSrc = block.src ? sanitizeURL(block.src) : null
+  // Sanitize the image URL - allows base64 data URLs for uploaded images
+  const sanitizedSrc = block.src ? sanitizeImageURL(block.src) : null
 
   if (!sanitizedSrc) {
     return (

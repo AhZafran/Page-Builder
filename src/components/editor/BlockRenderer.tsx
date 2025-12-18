@@ -17,6 +17,21 @@ import { ButtonBlockComponent } from './blocks/ButtonBlock'
 import { CountdownBlockComponent } from './blocks/CountdownBlock'
 import { FAQBlockComponent } from './blocks/FAQBlock'
 import { SpaceBlockComponent } from './blocks/SpaceBlock'
+import { DividerBlock } from './blocks/DividerBlock'
+import { IconBlock } from './blocks/IconBlock'
+import { SocialMediaBlock } from './blocks/SocialMediaBlock'
+import { TestimonialBlock } from './blocks/TestimonialBlock'
+import { FeatureBlock } from './blocks/FeatureBlock'
+import { PricingBlock } from './blocks/PricingBlock'
+import { FormBlock } from './blocks/FormBlock'
+import { AccordionBlock } from './blocks/AccordionBlock'
+import { QuoteBlock } from './blocks/QuoteBlock'
+import { StatsBlock } from './blocks/StatsBlock'
+import { TeamMemberBlock } from './blocks/TeamMemberBlock'
+import { GalleryBlock } from './blocks/GalleryBlock'
+import { LogoGridBlock } from './blocks/LogoGridBlock'
+import { EmbedBlock } from './blocks/EmbedBlock'
+import { NewsletterBlock } from './blocks/NewsletterBlock'
 
 interface BlockRendererProps {
   block: Block
@@ -99,6 +114,36 @@ export function BlockRenderer({ block, sectionId, index = 0, isSelected: isSelec
         return <FAQBlockComponent block={block} />
       case 'space':
         return <SpaceBlockComponent block={block} />
+      case 'divider':
+        return <DividerBlock block={block} sectionId={sectionId} />
+      case 'icon':
+        return <IconBlock block={block} sectionId={sectionId} />
+      case 'social':
+        return <SocialMediaBlock block={block} sectionId={sectionId} />
+      case 'testimonial':
+        return <TestimonialBlock block={block} sectionId={sectionId} />
+      case 'feature':
+        return <FeatureBlock block={block} sectionId={sectionId} />
+      case 'pricing':
+        return <PricingBlock block={block} sectionId={sectionId} />
+      case 'form':
+        return <FormBlock block={block} sectionId={sectionId} />
+      case 'accordion':
+        return <AccordionBlock block={block} sectionId={sectionId} />
+      case 'quote':
+        return <QuoteBlock block={block} sectionId={sectionId} />
+      case 'stats':
+        return <StatsBlock block={block} sectionId={sectionId} />
+      case 'team':
+        return <TeamMemberBlock block={block} sectionId={sectionId} />
+      case 'gallery':
+        return <GalleryBlock block={block} sectionId={sectionId} />
+      case 'logo-grid':
+        return <LogoGridBlock block={block} sectionId={sectionId} />
+      case 'embed':
+        return <EmbedBlock block={block} sectionId={sectionId} />
+      case 'newsletter':
+        return <NewsletterBlock block={block} sectionId={sectionId} />
       default: {
         // Exhaustiveness check - this should never be reached
         const _exhaustiveCheck: never = block

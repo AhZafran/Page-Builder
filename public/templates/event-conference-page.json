@@ -1,0 +1,306 @@
+{
+  "id": "template-event-001",
+  "name": "Event/Conference Page",
+  "slug": "event-conference-page",
+  "sections": [
+    {
+      "id": "hero-section",
+      "style": {
+        "backgroundColor": "#7c3aed",
+        "padding": { "top": 120, "right": 24, "bottom": 120, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "event-date",
+          "type": "text",
+          "content": "June 15-17, 2024 • San Francisco, CA",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "color": "#ddd6fe",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 8, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "event-title",
+          "type": "text",
+          "content": "TechFuture Summit 2024",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 60,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "event-tagline",
+          "type": "text",
+          "content": "The Future of Innovation • 3 Days of Learning, Networking, and Inspiration",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 22,
+            "fontWeight": 400,
+            "color": "#e9d5ff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 32, "bottom": 16, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 40, "left": 0 }
+          }
+        },
+        {
+          "id": "register-button",
+          "type": "button",
+          "text": "Register Now",
+          "href": "#register",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "color": "#7c3aed",
+            "fontSize": 18,
+            "fontWeight": 700,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 50,
+            "layout": "center",
+            "padding": { "top": 16, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "ticket-info",
+          "type": "text",
+          "content": "Early Bird: $299 • Regular: $499 • Limited Seats Available",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 14,
+            "fontWeight": 500,
+            "color": "#ddd6fe",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 0, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "about-section",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "about-title",
+          "type": "text",
+          "content": "Why Attend?",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#1f2937",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "reason-1",
+          "type": "text",
+          "content": "🎤 50+ Expert Speakers\nLearn from industry leaders, innovators, and visionaries shaping the future of technology.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#374151",
+            "textAlign": "center",
+            "padding": { "top": 16, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "reason-2",
+          "type": "text",
+          "content": "🤝 Network with 5,000+ Professionals\nConnect with peers, potential partners, and industry leaders from around the globe.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#374151",
+            "textAlign": "center",
+            "padding": { "top": 16, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "reason-3",
+          "type": "text",
+          "content": "💡 Hands-On Workshops\nParticipate in interactive sessions covering AI, blockchain, cloud computing, and emerging technologies.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#374151",
+            "textAlign": "center",
+            "padding": { "top": 16, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "schedule-section",
+      "style": {
+        "backgroundColor": "#f9fafb",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "schedule-title",
+          "type": "text",
+          "content": "Event Schedule",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#1f2937",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "day-1",
+          "type": "text",
+          "content": "Day 1 - June 15\nOpening Keynote • AI & Machine Learning Track • Networking Reception",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#374151",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "day-2",
+          "type": "text",
+          "content": "Day 2 - June 16\nWorkshops • Panel Discussions • Startup Pitch Competition • Evening Gala",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#374151",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "day-3",
+          "type": "text",
+          "content": "Day 3 - June 17\nDeep Dive Sessions • Closing Keynote • Certification Ceremony",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#374151",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "style": {
+        "backgroundColor": "#7c3aed",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "cta-title",
+          "type": "text",
+          "content": "Secure Your Spot Today",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 44,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "cta-urgency",
+          "type": "text",
+          "content": "Early Bird pricing ends in 14 days. Join 3,500+ registered attendees.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#e9d5ff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 40, "left": 0 }
+          }
+        },
+        {
+          "id": "cta-button",
+          "type": "button",
+          "text": "Get Tickets Now",
+          "href": "#tickets",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "color": "#7c3aed",
+            "fontSize": 18,
+            "fontWeight": 700,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 50,
+            "layout": "center",
+            "padding": { "top": 16, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    }
+  ]
+}

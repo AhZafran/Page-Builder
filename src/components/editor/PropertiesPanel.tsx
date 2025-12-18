@@ -11,6 +11,21 @@ import { ButtonBlockProperties } from './properties/ButtonBlockProperties'
 import { CountdownBlockProperties } from './properties/CountdownBlockProperties'
 import { FAQBlockProperties } from './properties/FAQBlockProperties'
 import { SpaceBlockProperties } from './properties/SpaceBlockProperties'
+import { DividerBlockProperties } from './properties/DividerBlockProperties'
+import { IconBlockProperties } from './properties/IconBlockProperties'
+import { SocialMediaBlockProperties } from './properties/SocialMediaBlockProperties'
+import { TestimonialBlockProperties } from './properties/TestimonialBlockProperties'
+import { FeatureBlockProperties } from './properties/FeatureBlockProperties'
+import { PricingBlockProperties } from './properties/PricingBlockProperties'
+import { FormBlockProperties } from './properties/FormBlockProperties'
+import { AccordionBlockProperties } from './properties/AccordionBlockProperties'
+import { QuoteBlockProperties } from './properties/QuoteBlockProperties'
+import { StatsBlockProperties } from './properties/StatsBlockProperties'
+import { TeamMemberBlockProperties } from './properties/TeamMemberBlockProperties'
+import { GalleryBlockProperties } from './properties/GalleryBlockProperties'
+import { LogoGridBlockProperties } from './properties/LogoGridBlockProperties'
+import { EmbedBlockProperties } from './properties/EmbedBlockProperties'
+import { NewsletterBlockProperties } from './properties/NewsletterBlockProperties'
 
 export function PropertiesPanel() {
   const currentPage = useEditorStore((state) => state.currentPage)
@@ -91,6 +106,36 @@ export function PropertiesPanel() {
           return <FAQBlockProperties block={element} sectionId={selectedElement.sectionId!} />
         case 'space':
           return <SpaceBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'divider':
+          return <DividerBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'icon':
+          return <IconBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'social':
+          return <SocialMediaBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'testimonial':
+          return <TestimonialBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'feature':
+          return <FeatureBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'pricing':
+          return <PricingBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'form':
+          return <FormBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'accordion':
+          return <AccordionBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'quote':
+          return <QuoteBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'stats':
+          return <StatsBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'team':
+          return <TeamMemberBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'gallery':
+          return <GalleryBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'logo-grid':
+          return <LogoGridBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'embed':
+          return <EmbedBlockProperties block={element} sectionId={selectedElement.sectionId!} />
+        case 'newsletter':
+          return <NewsletterBlockProperties block={element} sectionId={selectedElement.sectionId!} />
         default:
           return <div className="text-sm text-gray-500">Unknown block type</div>
       }

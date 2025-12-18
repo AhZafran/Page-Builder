@@ -11,6 +11,20 @@ import {
   HelpCircle,
   Space,
   LayoutGrid,
+  Minus,
+  Sparkles,
+  Share2,
+  Quote,
+  Layers,
+  DollarSign,
+  ClipboardList,
+  ChevronDown,
+  BarChart3,
+  Users,
+  Images,
+  Grid3x3,
+  Globe,
+  Mail,
 } from 'lucide-react'
 import { useEditorStore } from '@/store/editorStore'
 import {
@@ -32,6 +46,21 @@ const blockTypes = [
   { type: 'countdown' as BlockType, label: 'Countdown', icon: Clock },
   { type: 'faq' as BlockType, label: 'FAQ', icon: HelpCircle },
   { type: 'space' as BlockType, label: 'Space', icon: Space },
+  { type: 'divider' as BlockType, label: 'Divider', icon: Minus },
+  { type: 'icon' as BlockType, label: 'Icon', icon: Sparkles },
+  { type: 'social' as BlockType, label: 'Social Links', icon: Share2 },
+  { type: 'testimonial' as BlockType, label: 'Testimonial', icon: Quote },
+  { type: 'feature' as BlockType, label: 'Feature Card', icon: Layers },
+  { type: 'pricing' as BlockType, label: 'Pricing Table', icon: DollarSign },
+  { type: 'form' as BlockType, label: 'Form', icon: ClipboardList },
+  { type: 'accordion' as BlockType, label: 'Accordion', icon: ChevronDown },
+  { type: 'quote' as BlockType, label: 'Quote', icon: Quote },
+  { type: 'stats' as BlockType, label: 'Stats/Progress', icon: BarChart3 },
+  { type: 'team' as BlockType, label: 'Team Member', icon: Users },
+  { type: 'gallery' as BlockType, label: 'Gallery/Carousel', icon: Images },
+  { type: 'logo-grid' as BlockType, label: 'Logo Grid', icon: Grid3x3 },
+  { type: 'embed' as BlockType, label: 'Map/Embed', icon: Globe },
+  { type: 'newsletter' as BlockType, label: 'Newsletter Signup', icon: Mail },
 ]
 
 const sectionTemplates = [
@@ -204,7 +233,7 @@ export function LeftPanel() {
         <h2 className="font-semibold text-sm">Elements</h2>
       </div>
 
-      <Tabs defaultValue="blocks" className="flex-1 flex flex-col">
+      <Tabs defaultValue="blocks" className="flex-1 flex flex-col min-h-0">
         <TabsList className="mx-4 mt-2">
           <TabsTrigger value="blocks" className="flex-1">
             Blocks
@@ -214,7 +243,7 @@ export function LeftPanel() {
           </TabsTrigger>
         </TabsList>
 
-        <TabsContent value="blocks" className="flex-1 overflow-y-auto p-4">
+        <TabsContent value="blocks" className="flex-1 overflow-y-auto p-4 min-h-0">
           <div className="space-y-2">
             {blockTypes.map((block) => (
               <DraggableBlockItem
@@ -228,7 +257,7 @@ export function LeftPanel() {
           </div>
         </TabsContent>
 
-        <TabsContent value="sections" className="flex-1 overflow-y-auto p-4">
+        <TabsContent value="sections" className="flex-1 overflow-y-auto p-4 min-h-0">
           <div className="space-y-4">
             {/* Basic Column Layouts */}
             <div>

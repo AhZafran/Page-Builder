@@ -107,7 +107,8 @@ export function SectionRenderer({ section, index, totalSections }: SectionRender
   // Convert section style to CSS with sanitization
   const sanitizedBgImage = section.style.backgroundImage ? sanitizeURL(section.style.backgroundImage) : null
 
-  const sectionStyle: React.CSSProperties = {
+  // Base styles
+  const baseStyle: React.CSSProperties = {
     backgroundColor: section.style.backgroundColor,
     backgroundImage: sanitizedBgImage ? `url(${sanitizedBgImage})` : undefined,
     backgroundSize: section.style.backgroundSize || 'cover',
@@ -121,12 +122,29 @@ export function SectionRenderer({ section, index, totalSections }: SectionRender
     marginRight: `${section.style.margin.right}px`,
     marginBottom: `${section.style.margin.bottom}px`,
     marginLeft: `${section.style.margin.left}px`,
-    display: 'flex',
-    flexDirection: section.style.flex.direction,
-    alignItems: section.style.flex.alignItems,
-    justifyContent: section.style.flex.justifyContent,
-    flexWrap: section.style.flex.wrap,
     minHeight: section.blocks.length === 0 ? '120px' : 'auto',
+  }
+
+  // Layout-specific styles (with backward compatibility)
+  const isGridLayout = section.layout === 'grid' && section.columns
+  const layoutStyle: React.CSSProperties = isGridLayout
+    ? {
+        display: 'grid',
+        gridTemplateColumns: `repeat(${section.columns}, 1fr)`,
+        gap: `${section.style.rowGap ?? 16}px ${section.style.columnGap ?? 16}px`,
+      }
+    : {
+        display: 'flex',
+        flexDirection: section.style.flex?.direction || 'column',
+        alignItems: section.style.flex?.alignItems || 'stretch',
+        justifyContent: section.style.flex?.justifyContent || 'flex-start',
+        flexWrap: section.style.flex?.wrap || 'nowrap',
+        gap: `${section.style.rowGap ?? 0}px ${section.style.columnGap ?? 0}px`,
+      }
+
+  const sectionStyle: React.CSSProperties = {
+    ...baseStyle,
+    ...layoutStyle,
   }
 
   return (

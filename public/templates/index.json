@@ -1,0 +1,921 @@
+{
+  "categories": [
+    {
+      "name": "Business",
+      "templates": [
+        {
+          "id": "template-hkkosm54w",
+          "name": "Corporate Website",
+          "slug": "corporate-website",
+          "description": "Professional corporate website with company values, team showcase, and client testimonials. Perfect for established businesses.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#1e3a8a",
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "features": [
+            "Hero Section",
+            "Team Grid",
+            "Testimonials",
+            "Contact Form"
+          ]
+        },
+        {
+          "id": "template-bwg4wgfja",
+          "name": "Startup Landing",
+          "slug": "startup-landing",
+          "description": "Modern startup landing page with bold hero, feature highlights, and investor-ready stats. Ideal for fundraising and growth.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#7c3aed",
+            "#a78bfa",
+            "#f5f3ff"
+          ],
+          "features": [
+            "Bold Hero",
+            "Stats Counter",
+            "Feature Cards",
+            "Newsletter"
+          ]
+        },
+        {
+          "id": "template-x3xod5j52",
+          "name": "Consulting Firm",
+          "slug": "consulting-firm",
+          "description": "Professional consulting website highlighting expertise, case studies, and service offerings. Build client trust.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0f172a",
+            "#0ea5e9",
+            "#ffffff"
+          ],
+          "features": [
+            "Services Grid",
+            "Case Studies",
+            "Why Choose Us",
+            "Contact"
+          ]
+        },
+        {
+          "id": "template-mmcudoqbs",
+          "name": "Marketing Agency",
+          "slug": "marketing-agency",
+          "description": "Creative marketing agency site with portfolio showcase, client logos, and dynamic CTAs. Stand out from competitors.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#ec4899",
+            "#f472b6",
+            "#fdf2f8"
+          ],
+          "features": [
+            "Creative Hero",
+            "Portfolio Grid",
+            "Logo Carousel",
+            "Pricing"
+          ]
+        },
+        {
+          "id": "template-n364fi96p",
+          "name": "Financial Services",
+          "slug": "financial-services",
+          "description": "Trustworthy financial services platform with security features, calculators, and client testimonials. Build confidence.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#065f46",
+            "#10b981",
+            "#f0fdf4"
+          ],
+          "features": [
+            "Trust Indicators",
+            "Feature List",
+            "Calculator",
+            "FAQ"
+          ]
+        },
+        {
+          "id": "template-7actar546",
+          "name": "Legal Services",
+          "slug": "legal-services",
+          "description": "Professional law firm website with practice areas, attorney profiles, and consultation booking. Establish authority.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#78350f",
+            "#d97706",
+            "#fffbeb"
+          ],
+          "features": [
+            "Practice Areas",
+            "Attorney Grid",
+            "Testimonials",
+            "Booking"
+          ]
+        },
+        {
+          "id": "template-yguh2g3ca",
+          "name": "Real Estate Agency",
+          "slug": "real-estate-agency",
+          "description": "Modern real estate site with property listings, location maps, and agent contact. Drive property inquiries.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#1f2937",
+            "#f59e0b",
+            "#ffffff"
+          ],
+          "features": [
+            "Property Gallery",
+            "Map Integration",
+            "Agent Cards",
+            "Contact"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E-commerce",
+      "templates": [
+        {
+          "id": "template-2xxa5rxrc",
+          "name": "Fashion Store",
+          "slug": "fashion-store",
+          "description": "Elegant fashion e-commerce with seasonal collections, style guides, and size charts. Boost online sales.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#000000",
+            "#fbbf24",
+            "#ffffff"
+          ],
+          "features": [
+            "Collection Grid",
+            "Style Guide",
+            "Size Chart",
+            "Reviews"
+          ]
+        },
+        {
+          "id": "template-ggsdmupjo",
+          "name": "Electronics Shop",
+          "slug": "electronics-shop",
+          "description": "Tech-focused electronics store with product comparisons, specs, and warranty info. Convert tech buyers.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#1e40af",
+            "#60a5fa",
+            "#eff6ff"
+          ],
+          "features": [
+            "Product Showcase",
+            "Comparison Table",
+            "Tech Specs",
+            "Warranty"
+          ]
+        },
+        {
+          "id": "template-72mhhpf2o",
+          "name": "Furniture Store",
+          "slug": "furniture-store",
+          "description": "Sophisticated furniture showroom with room visualizers, material guides, and delivery info. Inspire home makeovers.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#92400e",
+            "#f59e0b",
+            "#fffbeb"
+          ],
+          "features": [
+            "Room Gallery",
+            "Material Guide",
+            "Pricing",
+            "Delivery Info"
+          ]
+        },
+        {
+          "id": "template-itpla9dd0",
+          "name": "Beauty Products",
+          "slug": "beauty-products",
+          "description": "Luxurious beauty brand site with ingredient lists, before/after, and subscription options. Build beauty community.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#be185d",
+            "#f9a8d4",
+            "#fdf2f8"
+          ],
+          "features": [
+            "Product Grid",
+            "Ingredients",
+            "Before/After",
+            "Subscribe"
+          ]
+        },
+        {
+          "id": "template-iq7vhjjvl",
+          "name": "Online Bookstore",
+          "slug": "online-bookstore",
+          "description": "Cozy bookstore with curated collections, author profiles, and reading recommendations. Engage book lovers.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#431407",
+            "#92400e",
+            "#fef3c7"
+          ],
+          "features": [
+            "Book Collections",
+            "Authors",
+            "Recommendations",
+            "Reviews"
+          ]
+        },
+        {
+          "id": "template-umzafumu2",
+          "name": "Sports Equipment",
+          "slug": "sports-equipment",
+          "description": "Dynamic sports gear store with activity guides, athlete endorsements, and training tips. Motivate athletes.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#b91c1c",
+            "#ef4444",
+            "#fef2f2"
+          ],
+          "features": [
+            "Gear Showcase",
+            "Activity Guide",
+            "Athlete Quotes",
+            "Training"
+          ]
+        },
+        {
+          "id": "template-i52lzzj8t",
+          "name": "Handmade Crafts",
+          "slug": "handmade-crafts",
+          "description": "Artisan marketplace with maker stories, custom orders, and sustainability info. Support local artisans.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#16a34a",
+            "#86efac",
+            "#f0fdf4"
+          ],
+          "features": [
+            "Artisan Stories",
+            "Custom Orders",
+            "Sustainability",
+            "Gallery"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personal",
+      "templates": [
+        {
+          "id": "template-96ypv9pc2",
+          "name": "Designer Portfolio",
+          "slug": "designer-portfolio",
+          "description": "Stunning designer portfolio with case studies, design process, and client work. Showcase creative excellence.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0c4a6e",
+            "#0ea5e9",
+            "#f0f9ff"
+          ],
+          "features": [
+            "Case Studies",
+            "Design Process",
+            "Client Work",
+            "Contact"
+          ]
+        },
+        {
+          "id": "template-hcdgxn189",
+          "name": "Developer Portfolio",
+          "slug": "developer-portfolio",
+          "description": "Clean developer portfolio with projects, tech stack, GitHub stats, and blog. Land dream dev job.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#1e293b",
+            "#22d3ee",
+            "#ecfeff"
+          ],
+          "features": [
+            "Projects",
+            "Tech Stack",
+            "GitHub Stats",
+            "Blog"
+          ]
+        },
+        {
+          "id": "template-mlp9cuuf0",
+          "name": "Personal Blog",
+          "slug": "personal-blog",
+          "description": "Modern blog layout with featured posts, categories, author bio, and newsletter signup. Build audience.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#374151",
+            "#6366f1",
+            "#eef2ff"
+          ],
+          "features": [
+            "Featured Posts",
+            "Categories",
+            "Author Bio",
+            "Newsletter"
+          ]
+        },
+        {
+          "id": "template-5lz7028ks",
+          "name": "Resume CV",
+          "slug": "resume-cv",
+          "description": "Professional online resume with experience timeline, skills chart, and downloadable PDF. Impress employers.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#1f2937",
+            "#3b82f6",
+            "#ffffff"
+          ],
+          "features": [
+            "Timeline",
+            "Skills Chart",
+            "Experience",
+            "Download"
+          ]
+        },
+        {
+          "id": "template-t1eyue3g6",
+          "name": "Photography Portfolio",
+          "slug": "photography-portfolio",
+          "description": "Visual photography portfolio with gallery grids, photo stories, and print shop. Attract photo clients.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#000000",
+            "#ffffff",
+            "#f5f5f5"
+          ],
+          "features": [
+            "Photo Gallery",
+            "Stories",
+            "Print Shop",
+            "Contact"
+          ]
+        },
+        {
+          "id": "template-6da2n93km",
+          "name": "Artist Showcase",
+          "slug": "artist-showcase",
+          "description": "Creative artist website with artwork gallery, exhibitions, press coverage, and commissions. Grow art business.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#581c87",
+            "#c084fc",
+            "#faf5ff"
+          ],
+          "features": [
+            "Artwork Grid",
+            "Exhibitions",
+            "Press",
+            "Commissions"
+          ]
+        },
+        {
+          "id": "template-tzc9nneyp",
+          "name": "Influencer Page",
+          "slug": "influencer-page",
+          "description": "Engaging influencer hub with social feeds, brand partnerships, media kit, and collab form. Grow following.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#db2777",
+            "#f9a8d4",
+            "#fdf2f8"
+          ],
+          "features": [
+            "Social Feed",
+            "Partnerships",
+            "Media Kit",
+            "Collab Form"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food & Dining",
+      "templates": [
+        {
+          "id": "template-6f6zf1d9z",
+          "name": "Fine Dining Restaurant",
+          "slug": "fine-dining-restaurant",
+          "description": "Elegant fine dining website with seasonal menu, chef profile, wine pairings, and reservations. Create dining desire.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#1c1917",
+            "#d4a574",
+            "#fafaf9"
+          ],
+          "features": [
+            "Seasonal Menu",
+            "Chef Profile",
+            "Wine Pairings",
+            "Reservations"
+          ]
+        },
+        {
+          "id": "template-m4ere4lj1",
+          "name": "Cozy Cafe",
+          "slug": "cozy-cafe",
+          "description": "Warm cafe site with breakfast/lunch menu, coffee guide, loyalty program, and location. Build local community.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#78350f",
+            "#fb923c",
+            "#fff7ed"
+          ],
+          "features": [
+            "Menu",
+            "Coffee Guide",
+            "Loyalty Program",
+            "Location Map"
+          ]
+        },
+        {
+          "id": "template-c7azykbq0",
+          "name": "Artisan Bakery",
+          "slug": "artisan-bakery",
+          "description": "Delightful bakery showcase with daily specials, baking process, custom cakes, and online ordering. Tempt customers.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#92400e",
+            "#fbbf24",
+            "#fffbeb"
+          ],
+          "features": [
+            "Daily Specials",
+            "Baking Process",
+            "Custom Cakes",
+            "Order Online"
+          ]
+        },
+        {
+          "id": "template-qiz98j67q",
+          "name": "Food Delivery Service",
+          "slug": "food-delivery-service",
+          "description": "Fast food delivery platform with restaurant partners, live tracking, deals, and app download. Drive orders.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#dc2626",
+            "#fca5a5",
+            "#fef2f2"
+          ],
+          "features": [
+            "Restaurants",
+            "Live Tracking",
+            "Deals",
+            "App Download"
+          ]
+        },
+        {
+          "id": "template-8wfc3uaj2",
+          "name": "Catering Service",
+          "slug": "catering-service",
+          "description": "Professional catering business with event packages, menu customization, past events, and quote request. Book events.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0f766e",
+            "#5eead4",
+            "#f0fdfa"
+          ],
+          "features": [
+            "Event Packages",
+            "Menu Options",
+            "Past Events",
+            "Get Quote"
+          ]
+        },
+        {
+          "id": "template-5a1t3iqiy",
+          "name": "Bar & Lounge",
+          "slug": "bar-lounge",
+          "description": "Sophisticated bar website with cocktail menu, happy hours, live music schedule, and VIP booking. Fill tables.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#1e1b4b",
+            "#818cf8",
+            "#eef2ff"
+          ],
+          "features": [
+            "Cocktail Menu",
+            "Happy Hours",
+            "Live Music",
+            "VIP Booking"
+          ]
+        },
+        {
+          "id": "template-ojl0tgs6a",
+          "name": "Food Truck",
+          "slug": "food-truck",
+          "description": "Fun food truck site with current location, menu favorites, events calendar, and social media. Track the truck.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#ea580c",
+            "#fdba74",
+            "#fff7ed"
+          ],
+          "features": [
+            "Current Location",
+            "Menu",
+            "Events",
+            "Social Links"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "templates": [
+        {
+          "id": "template-7togv9ztn",
+          "name": "Tech Conference",
+          "slug": "tech-conference",
+          "description": "Professional conference site with speaker lineup, session schedule, sponsor showcase, and ticket sales. Sell out fast.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#4338ca",
+            "#818cf8",
+            "#eef2ff"
+          ],
+          "features": [
+            "Speakers",
+            "Schedule",
+            "Sponsors",
+            "Tickets"
+          ]
+        },
+        {
+          "id": "template-41q7mmlbz",
+          "name": "Dream Wedding",
+          "slug": "dream-wedding",
+          "description": "Romantic wedding website with couple story, venue details, RSVP form, and registry. Share the joy.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#9f1239",
+            "#fda4af",
+            "#fff1f2"
+          ],
+          "features": [
+            "Couple Story",
+            "Venue",
+            "RSVP",
+            "Registry"
+          ]
+        },
+        {
+          "id": "template-g5p3fzrle",
+          "name": "Music Festival",
+          "slug": "music-festival",
+          "description": "Vibrant music festival page with artist lineup, stage schedule, camping info, and ticket tiers. Hype the event.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#c026d3",
+            "#e879f9",
+            "#fae8ff"
+          ],
+          "features": [
+            "Artist Lineup",
+            "Stages",
+            "Camping",
+            "Tickets"
+          ]
+        },
+        {
+          "id": "template-e39tduoi8",
+          "name": "Workshop Series",
+          "slug": "workshop-series",
+          "description": "Educational workshop platform with instructor bios, learning outcomes, materials list, and registration. Fill seats.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0369a1",
+            "#7dd3fc",
+            "#f0f9ff"
+          ],
+          "features": [
+            "Instructors",
+            "Outcomes",
+            "Materials",
+            "Register"
+          ]
+        },
+        {
+          "id": "template-mh9c47gx5",
+          "name": "Virtual Webinar",
+          "slug": "virtual-webinar",
+          "description": "Online webinar landing with host intro, agenda, platform access, and email reminders. Maximize attendance.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#7c3aed",
+            "#c4b5fd",
+            "#f5f3ff"
+          ],
+          "features": [
+            "Host Intro",
+            "Agenda",
+            "Platform",
+            "Email Signup"
+          ]
+        },
+        {
+          "id": "template-q9tlivpwv",
+          "name": "Trade Show",
+          "slug": "trade-show",
+          "description": "Industry trade show hub with exhibitor directory, floor plan, networking events, and exhibitor signup. Connect industry.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0f766e",
+            "#2dd4bf",
+            "#f0fdfa"
+          ],
+          "features": [
+            "Exhibitors",
+            "Floor Plan",
+            "Networking",
+            "Exhibit"
+          ]
+        },
+        {
+          "id": "template-kvxevx7ag",
+          "name": "Charity Fundraiser",
+          "slug": "charity-fundraiser",
+          "description": "Impactful charity event with cause story, donation tiers, progress tracker, and volunteer signup. Make a difference.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#059669",
+            "#86efac",
+            "#f0fdf4"
+          ],
+          "features": [
+            "Cause Story",
+            "Donate",
+            "Progress",
+            "Volunteer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "templates": [
+        {
+          "id": "template-h40j2gp9i",
+          "name": "Cloud Platform",
+          "slug": "cloud-platform",
+          "description": "Enterprise cloud service with infrastructure features, pricing calculator, security compliance, and free trial. Win enterprise deals.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0c4a6e",
+            "#38bdf8",
+            "#f0f9ff"
+          ],
+          "features": [
+            "Features",
+            "Calculator",
+            "Security",
+            "Free Trial"
+          ]
+        },
+        {
+          "id": "template-3pc1q0ky2",
+          "name": "Mobile App Launch",
+          "slug": "mobile-app-launch",
+          "description": "App launch page with feature showcase, video demo, user testimonials, and store download buttons. Drive installs.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#6366f1",
+            "#a5b4fc",
+            "#eef2ff"
+          ],
+          "features": [
+            "Features",
+            "Video Demo",
+            "Testimonials",
+            "Downloads"
+          ]
+        },
+        {
+          "id": "template-msqojzyep",
+          "name": "Web3 Platform",
+          "slug": "web3-platform",
+          "description": "Crypto/blockchain platform with token info, roadmap, whitepaper, and wallet connect. Build community trust.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#7c3aed",
+            "#d8b4fe",
+            "#faf5ff"
+          ],
+          "features": [
+            "Token Info",
+            "Roadmap",
+            "Whitepaper",
+            "Connect Wallet"
+          ]
+        },
+        {
+          "id": "template-l1xo52rbv",
+          "name": "AI Assistant Tool",
+          "slug": "ai-assistant-tool",
+          "description": "AI-powered tool with use case examples, API docs, model comparison, and playground demo. Attract developers.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0891b2",
+            "#67e8f9",
+            "#ecfeff"
+          ],
+          "features": [
+            "Use Cases",
+            "API Docs",
+            "Comparison",
+            "Playground"
+          ]
+        },
+        {
+          "id": "template-y7pwrddgg",
+          "name": "Developer Tools",
+          "slug": "developer-tools",
+          "description": "Dev tool platform with code examples, integration guides, CLI commands, and community forum. Grow developer adoption.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0f172a",
+            "#22c55e",
+            "#f0fdf4"
+          ],
+          "features": [
+            "Code Examples",
+            "Integrations",
+            "CLI",
+            "Community"
+          ]
+        },
+        {
+          "id": "template-zw1ocoycv",
+          "name": "Cybersecurity Solution",
+          "slug": "cybersecurity-solution",
+          "description": "Security software with threat detection, compliance features, incident response, and enterprise demo. Protect businesses.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#991b1b",
+            "#f87171",
+            "#fef2f2"
+          ],
+          "features": [
+            "Threat Detection",
+            "Compliance",
+            "Incident Response",
+            "Demo"
+          ]
+        },
+        {
+          "id": "template-6p8lniv8w",
+          "name": "Analytics Dashboard",
+          "slug": "analytics-dashboard",
+          "description": "Data analytics platform with real-time metrics, custom dashboards, data connectors, and ROI calculator. Drive data decisions.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#1e40af",
+            "#93c5fd",
+            "#dbeafe"
+          ],
+          "features": [
+            "Metrics",
+            "Dashboards",
+            "Connectors",
+            "ROI Calc"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "templates": [
+        {
+          "id": "template-hjekoytyu",
+          "name": "Online Course Platform",
+          "slug": "online-course-platform",
+          "description": "E-learning platform with course catalog, instructor profiles, student reviews, and enrollment. Empower learners.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#3730a3",
+            "#a78bfa",
+            "#ede9fe"
+          ],
+          "features": [
+            "Course Catalog",
+            "Instructors",
+            "Reviews",
+            "Enroll"
+          ]
+        },
+        {
+          "id": "template-ktgdytok7",
+          "name": "University Programs",
+          "slug": "university-programs",
+          "description": "Academic university site with program overview, campus life, admissions info, and application portal. Attract students.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#7c2d12",
+            "#fb923c",
+            "#fff7ed"
+          ],
+          "features": [
+            "Programs",
+            "Campus Life",
+            "Admissions",
+            "Apply"
+          ]
+        },
+        {
+          "id": "template-0n57w6x3h",
+          "name": "Training Center",
+          "slug": "training-center",
+          "description": "Professional training facility with certification courses, corporate training, calendar, and contact. Upskill workforce.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#065f46",
+            "#34d399",
+            "#d1fae5"
+          ],
+          "features": [
+            "Certifications",
+            "Corporate",
+            "Calendar",
+            "Contact"
+          ]
+        },
+        {
+          "id": "template-1iphn7srn",
+          "name": "Tutoring Service",
+          "slug": "tutoring-service",
+          "description": "Personal tutoring service with subject expertise, tutor matching, pricing plans, and scheduling. Improve grades.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0369a1",
+            "#7dd3fc",
+            "#e0f2fe"
+          ],
+          "features": [
+            "Subjects",
+            "Tutor Match",
+            "Pricing",
+            "Schedule"
+          ]
+        },
+        {
+          "id": "template-qhtnals31",
+          "name": "E-Learning SaaS",
+          "slug": "elearning-saas",
+          "description": "LMS software with course builder, student tracking, assessments, and integrations. Scale education.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#6366f1",
+            "#c7d2fe",
+            "#eef2ff"
+          ],
+          "features": [
+            "Course Builder",
+            "Tracking",
+            "Assessments",
+            "Integrations"
+          ]
+        },
+        {
+          "id": "template-bw34xqq61",
+          "name": "Coding Bootcamp",
+          "slug": "coding-bootcamp",
+          "description": "Intensive bootcamp with curriculum, outcomes data, financing options, and application. Launch tech careers.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#0f172a",
+            "#22d3ee",
+            "#cffafe"
+          ],
+          "features": [
+            "Curriculum",
+            "Outcomes",
+            "Financing",
+            "Apply"
+          ]
+        },
+        {
+          "id": "template-kjbu3ezj8",
+          "name": "Language School",
+          "slug": "language-school",
+          "description": "Language learning center with courses by level, native teachers, cultural immersion, and placement test. Master languages.",
+          "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+          "colors": [
+            "#be123c",
+            "#fda4af",
+            "#ffe4e6"
+          ],
+          "features": [
+            "Levels",
+            "Teachers",
+            "Culture",
+            "Test"
+          ]
+        }
+      ]
+    }
+  ]
+}

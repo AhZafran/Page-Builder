@@ -1,0 +1,825 @@
+{
+  "id": "template-kvxevx7ag",
+  "name": "Charity Fundraiser",
+  "slug": "charity-fundraiser",
+  "sections": [
+    {
+      "id": "section-jr0ceqn2y",
+      "style": {
+        "backgroundColor": "#059669",
+        "padding": {
+          "top": 100,
+          "right": 24,
+          "bottom": 100,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-52cnyokcp",
+          "type": "text",
+          "content": "Charity Fundraiser",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "color": "#f0fdf4",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-pat06727f",
+          "type": "text",
+          "content": "Impactful charity event with cause story, donation tiers, progress tracker, and volunteer signup. Make a difference.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#f0fdf4dd",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-nd92x5ueq",
+          "type": "text",
+          "content": "📅 June 15-17, 2024 | 🌍 San Francisco, CA",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#f0fdf4",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-6093jvu0c",
+          "type": "button",
+          "text": "Get Tickets",
+          "href": "#tickets",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#86efac",
+            "color": "#f0fdf4",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-fb02sgs4w",
+      "layout": "grid",
+      "columns": 3,
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "feature-97e4esqc0",
+          "type": "feature",
+          "iconName": "Calendar",
+          "title": "3 Days",
+          "description": "Full event schedule",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#86efac",
+            "iconSize": 48,
+            "titleColor": "#059669",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-uwa71qhod",
+          "type": "feature",
+          "iconName": "Users",
+          "title": "50+ Speakers",
+          "description": "Industry experts",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#86efac",
+            "iconSize": 48,
+            "titleColor": "#059669",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-cxgw5257f",
+          "type": "feature",
+          "iconName": "MapPin",
+          "title": "Prime Location",
+          "description": "Downtown venue",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#86efac",
+            "iconSize": 48,
+            "titleColor": "#059669",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-sqqtkq376",
+      "layout": "grid",
+      "columns": 3,
+      "style": {
+        "backgroundColor": "#f0fdf4",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "text-9o9c84oqy",
+          "type": "text",
+          "content": "Featured Speakers",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#059669",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "team-2zsmag9t9",
+          "type": "team",
+          "name": "Dr. Sarah Williams",
+          "role": "Keynote Speaker",
+          "bio": "Tech innovation expert with 20+ years experience",
+          "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=300",
+          "socialLinks": [],
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 8,
+              "bottom": 16,
+              "left": 8
+            },
+            "imageSize": 150,
+            "imageBorderRadius": 9999,
+            "nameColor": "#059669",
+            "nameSize": 20,
+            "roleColor": "#86efac",
+            "roleSize": 16,
+            "bioColor": "#64748b",
+            "bioSize": 14,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "cardBackgroundColor": "#f8fafc",
+            "cardBorderColor": "#e2e8f0",
+            "cardBorderWidth": 1
+          }
+        },
+        {
+          "id": "team-k7jefrim2",
+          "type": "team",
+          "name": "James Chen",
+          "role": "Industry Leader",
+          "bio": "CEO of leading tech company",
+          "imageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300",
+          "socialLinks": [],
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 8,
+              "bottom": 16,
+              "left": 8
+            },
+            "imageSize": 150,
+            "imageBorderRadius": 9999,
+            "nameColor": "#059669",
+            "nameSize": 20,
+            "roleColor": "#86efac",
+            "roleSize": 16,
+            "bioColor": "#64748b",
+            "bioSize": 14,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "cardBackgroundColor": "#f8fafc",
+            "cardBorderColor": "#e2e8f0",
+            "cardBorderWidth": 1
+          }
+        },
+        {
+          "id": "team-8kba001hd",
+          "type": "team",
+          "name": "Maria Garcia",
+          "role": "Innovation Director",
+          "bio": "Pioneer in digital transformation",
+          "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300",
+          "socialLinks": [],
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 8,
+              "bottom": 16,
+              "left": 8
+            },
+            "imageSize": 150,
+            "imageBorderRadius": 9999,
+            "nameColor": "#059669",
+            "nameSize": 20,
+            "roleColor": "#86efac",
+            "roleSize": 16,
+            "bioColor": "#64748b",
+            "bioSize": 14,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "cardBackgroundColor": "#f8fafc",
+            "cardBorderColor": "#e2e8f0",
+            "cardBorderWidth": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-bfkerxdpb",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-blm1a9t0n",
+          "type": "text",
+          "content": "Event Schedule",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#059669",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "accordion-iwzxorkgu",
+          "type": "accordion",
+          "items": [
+            {
+              "id": "item-xz13j09mx",
+              "title": "Day 1 - Opening & Keynotes",
+              "content": "9:00 AM - Registration\n10:00 AM - Opening Ceremony\n11:00 AM - Keynote Presentations\n1:00 PM - Lunch & Networking"
+            },
+            {
+              "id": "item-b1jrakwsl",
+              "title": "Day 2 - Workshops & Sessions",
+              "content": "9:00 AM - Morning Workshops\n12:00 PM - Lunch Break\n2:00 PM - Afternoon Sessions\n5:00 PM - Evening Reception"
+            },
+            {
+              "id": "item-jr8pvshnc",
+              "title": "Day 3 - Closing & Awards",
+              "content": "9:00 AM - Final Sessions\n12:00 PM - Awards Ceremony\n2:00 PM - Closing Remarks\n3:00 PM - Networking Mixer"
+            }
+          ],
+          "allowMultipleExpanded": false,
+          "defaultExpandedIndex": -1,
+          "style": {
+            "backgroundColor": "transparent",
+            "borderRadius": 8,
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "itemBackgroundColor": "#ffffff",
+            "itemBorderColor": "#e2e8f0",
+            "titleColor": "#059669",
+            "titleSize": 18,
+            "contentColor": "#64748b",
+            "contentSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "spacing": 12,
+            "expandedItemBackgroundColor": "#f0fdf4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-7huahg3v9",
+      "layout": "grid",
+      "columns": 3,
+      "style": {
+        "backgroundColor": "#f0fdf4",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "text-5ybjzyt48",
+          "type": "text",
+          "content": "Ticket Options",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#059669",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "pricing-wpou98drr",
+          "type": "pricing",
+          "planName": "Early Bird",
+          "price": "299",
+          "currency": "$",
+          "period": "/ ticket",
+          "features": [
+            "Access to all sessions",
+            "Conference materials",
+            "Lunch included",
+            "Networking events"
+          ],
+          "buttonText": "Buy Now",
+          "buttonLink": "#signup",
+          "highlighted": false,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 24,
+              "bottom": 32,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 8,
+              "bottom": 16,
+              "left": 8
+            },
+            "planNameColor": "#059669",
+            "planNameSize": 24,
+            "priceColor": "#86efac",
+            "priceSize": 48,
+            "periodColor": "#64748b",
+            "periodSize": 16,
+            "featuresColor": "#334155",
+            "featuresSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "highlightColor": "#86efac",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        },
+        {
+          "id": "pricing-yfnh9z7i8",
+          "type": "pricing",
+          "planName": "Standard",
+          "price": "399",
+          "currency": "$",
+          "period": "/ ticket",
+          "features": [
+            "Access to all sessions",
+            "Conference materials",
+            "Lunch included",
+            "Networking events",
+            "VIP lounge access"
+          ],
+          "buttonText": "Buy Now",
+          "buttonLink": "#signup",
+          "highlighted": true,
+          "highlightLabel": "Popular",
+          "style": {
+            "backgroundColor": "#f0fdf4",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 24,
+              "bottom": 32,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 8,
+              "bottom": 16,
+              "left": 8
+            },
+            "planNameColor": "#059669",
+            "planNameSize": 24,
+            "priceColor": "#86efac",
+            "priceSize": 48,
+            "periodColor": "#64748b",
+            "periodSize": 16,
+            "featuresColor": "#334155",
+            "featuresSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "highlightColor": "#86efac",
+            "borderWidth": 2,
+            "borderColor": "#86efac"
+          }
+        },
+        {
+          "id": "pricing-b5t274mk3",
+          "type": "pricing",
+          "planName": "VIP",
+          "price": "599",
+          "currency": "$",
+          "period": "/ ticket",
+          "features": [
+            "All Standard features",
+            "Meet & greet with speakers",
+            "Premium seating",
+            "Exclusive dinners",
+            "Gift package"
+          ],
+          "buttonText": "Buy Now",
+          "buttonLink": "#signup",
+          "highlighted": false,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 24,
+              "bottom": 32,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 8,
+              "bottom": 16,
+              "left": 8
+            },
+            "planNameColor": "#059669",
+            "planNameSize": 24,
+            "priceColor": "#86efac",
+            "priceSize": 48,
+            "periodColor": "#64748b",
+            "periodSize": 16,
+            "featuresColor": "#334155",
+            "featuresSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "highlightColor": "#86efac",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-nwq1k2lb3",
+      "style": {
+        "backgroundColor": "#86efac",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-2hqnrmvd6",
+          "type": "text",
+          "content": "Don't Miss Out!",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#f0fdf4",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-0mclf3eyi",
+          "type": "text",
+          "content": "Limited seats available. Secure your spot today!",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#f0fdf4ee",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-asngrttwe",
+          "type": "button",
+          "text": "Register Now",
+          "href": "#register",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#f0fdf4",
+            "color": "#86efac",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "id": "template-restaurant-001",
+  "name": "Restaurant Landing Page",
+  "slug": "restaurant-page",
+  "sections": [
+    {
+      "id": "hero-section",
+      "style": {
+        "backgroundColor": "#2d1810",
+        "padding": { "top": 120, "right": 24, "bottom": 120, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "hero-tagline",
+          "type": "text",
+          "content": "Since 1985",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#d4a574",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 8, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-title",
+          "type": "text",
+          "content": "Bella Cucina",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 64,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-subtitle",
+          "type": "text",
+          "content": "Authentic Italian Cuisine in the Heart of Downtown",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 400,
+            "color": "#e5d5c5",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 40, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-cta",
+          "type": "button",
+          "text": "Reserve a Table",
+          "href": "#reservation",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#d4a574",
+            "color": "#2d1810",
+            "fontSize": 18,
+            "fontWeight": 700,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 4,
+            "layout": "center",
+            "padding": { "top": 16, "right": 40, "bottom": 16, "left": 40 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "menu-section",
+      "style": {
+        "backgroundColor": "#f9f7f4",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "menu-title",
+          "type": "text",
+          "content": "Our Signature Dishes",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#2d1810",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "dish-1",
+          "type": "text",
+          "content": "🍝 Handmade Pasta Carbonara\nCreamy authentic Roman-style carbonara with guanciale, pecorino romano, and fresh eggs. A timeless classic.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#4a3828",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "dish-2",
+          "type": "text",
+          "content": "🍕 Wood-Fired Margherita Pizza\nThin crust pizza baked in our traditional wood-fired oven with San Marzano tomatoes, fresh mozzarella, and basil.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#4a3828",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "dish-3",
+          "type": "text",
+          "content": "🥩 Osso Buco alla Milanese\nSlow-braised veal shanks in white wine, vegetables, and broth. Served with saffron risotto and gremolata.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#4a3828",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "about-section",
+      "style": {
+        "backgroundColor": "#2d1810",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "about-title",
+          "type": "text",
+          "content": "A Family Tradition",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#d4a574",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "about-content",
+          "type": "text",
+          "content": "For over 35 years, the Rossi family has been serving authentic Italian cuisine made with love and the finest ingredients. Our recipes have been passed down through generations, bringing the taste of Italy to your table.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e5d5c5",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "hours-title",
+          "type": "text",
+          "content": "Opening Hours",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "color": "#d4a574",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 8, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "hours-info",
+          "type": "text",
+          "content": "Tuesday - Thursday: 5:00 PM - 10:00 PM\nFriday - Saturday: 5:00 PM - 11:00 PM\nSunday: 12:00 PM - 9:00 PM\nMonday: Closed",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "color": "#c4b5a5",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 24, "bottom": 0, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact-section",
+      "style": {
+        "backgroundColor": "#d4a574",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "contact-title",
+          "type": "text",
+          "content": "Visit Us Today",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#2d1810",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "contact-address",
+          "type": "text",
+          "content": "123 Main Street, Downtown\nCall us: (555) 123-4567\nemail@bellacucina.com",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#4a3828",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 24, "bottom": 24, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "contact-cta",
+          "type": "button",
+          "text": "Make a Reservation",
+          "href": "tel:+15551234567",
+          "target": "_blank",
+          "style": {
+            "backgroundColor": "#2d1810",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 700,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 4,
+            "layout": "center",
+            "padding": { "top": 16, "right": 40, "bottom": 16, "left": 40 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    }
+  ]
+}

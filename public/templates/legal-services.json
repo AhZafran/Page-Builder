@@ -1,0 +1,566 @@
+{
+  "id": "template-7actar546",
+  "name": "Legal Services",
+  "slug": "legal-services",
+  "sections": [
+    {
+      "id": "section-z2ugyiopm",
+      "style": {
+        "backgroundColor": "#78350f",
+        "padding": {
+          "top": 100,
+          "right": 24,
+          "bottom": 100,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-2cfbgum12",
+          "type": "text",
+          "content": "Legal Services",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 700,
+            "color": "#fffbeb",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 24,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-3okc5x7w0",
+          "type": "text",
+          "content": "Professional law firm website with practice areas, attorney profiles, and consultation booking. Establish authority.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#fffbebcc",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-otabadlnd",
+          "type": "button",
+          "text": "Get Started",
+          "href": "#contact",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#d97706",
+            "color": "#fffbeb",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-w6u0k805r",
+      "layout": "grid",
+      "columns": 3,
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "text-dyxxt4ume",
+          "type": "text",
+          "content": "Our Services",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#78350f",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "feature-ye45h7x7z",
+          "type": "feature",
+          "iconName": "Zap",
+          "title": "Fast Delivery",
+          "description": "Get your projects completed on time, every time with our efficient workflow.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#d97706",
+            "iconSize": 48,
+            "titleColor": "#78350f",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-gz30fbddw",
+          "type": "feature",
+          "iconName": "Shield",
+          "title": "Secure & Reliable",
+          "description": "Enterprise-grade security and 99.9% uptime guarantee for peace of mind.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#d97706",
+            "iconSize": 48,
+            "titleColor": "#78350f",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-avlvz4itg",
+          "type": "feature",
+          "iconName": "Users",
+          "title": "Expert Team",
+          "description": "Work with industry experts who bring years of experience to your project.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#d97706",
+            "iconSize": 48,
+            "titleColor": "#78350f",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-un3im39m4",
+      "style": {
+        "backgroundColor": "#fffbeb",
+        "padding": {
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "stats-ckaxhd0f7",
+          "type": "stats",
+          "items": [
+            {
+              "id": "stat-bw6g8cfl8",
+              "label": "Happy Clients",
+              "value": 500,
+              "suffix": "+",
+              "showProgressBar": false
+            },
+            {
+              "id": "stat-uq0hrchhr",
+              "label": "Projects Completed",
+              "value": 1200,
+              "suffix": "+",
+              "showProgressBar": false
+            },
+            {
+              "id": "stat-7hrh9mflo",
+              "label": "Team Members",
+              "value": 50,
+              "suffix": "+",
+              "showProgressBar": false
+            }
+          ],
+          "style": {
+            "backgroundColor": "transparent",
+            "borderRadius": 0,
+            "padding": {
+              "top": 16,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "labelColor": "#64748b",
+            "labelSize": 14,
+            "valueColor": "#78350f",
+            "valueSize": 36,
+            "progressBarColor": "#d97706",
+            "progressBarBackgroundColor": "#e2e8f0",
+            "progressBarHeight": 8,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "layout": "horizontal",
+            "itemSpacing": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2gi1ge1gf",
+      "layout": "grid",
+      "columns": 2,
+      "style": {
+        "backgroundColor": "#f8fafc",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "text-f8ffhcvxq",
+          "type": "text",
+          "content": "What Our Clients Say",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#78350f",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "testimonial-m0jjnptb3",
+          "type": "testimonial",
+          "quote": "Working with this team has transformed our business. Their expertise and dedication are unmatched.",
+          "authorName": "Sarah Johnson",
+          "authorRole": "CEO, TechCorp",
+          "rating": 5,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "textColor": "#1e293b",
+            "authorColor": "#78350f",
+            "roleColor": "#64748b",
+            "fontSize": 18,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showRating": true,
+            "ratingColor": "#fbbf24",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        },
+        {
+          "id": "testimonial-n99t4qzfb",
+          "type": "testimonial",
+          "quote": "Exceptional service and results that exceeded our expectations. Highly recommend!",
+          "authorName": "Michael Chen",
+          "authorRole": "Director, Innovation Labs",
+          "rating": 5,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "textColor": "#1e293b",
+            "authorColor": "#78350f",
+            "roleColor": "#64748b",
+            "fontSize": 18,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showRating": true,
+            "ratingColor": "#fbbf24",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-n6u5tu6rm",
+      "style": {
+        "backgroundColor": "#d97706",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-z1v1p01nz",
+          "type": "text",
+          "content": "Ready to Transform Your Business?",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 24,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-6f5l694eb",
+          "type": "text",
+          "content": "Get in touch with us today and let's discuss how we can help you achieve your goals.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#ffffffee",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-3k7ergn1b",
+          "type": "button",
+          "text": "Contact Us",
+          "href": "#contact",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "color": "#d97706",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,627 @@
+{
+  "id": "template-ojl0tgs6a",
+  "name": "Food Truck",
+  "slug": "food-truck",
+  "sections": [
+    {
+      "id": "section-4uvnh17tr",
+      "style": {
+        "backgroundColor": "#ea580c",
+        "backgroundImage": "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
+        "padding": {
+          "top": 100,
+          "right": 24,
+          "bottom": 100,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-7wacstoaa",
+          "type": "text",
+          "content": "Food Truck",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "color": "#fff7ed",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-hiusmadd1",
+          "type": "text",
+          "content": "Fun food truck site with current location, menu favorites, events calendar, and social media. Track the truck.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#fff7eddd",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-sg44ot9va",
+          "type": "button",
+          "text": "View Menu",
+          "href": "#menu",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#fdba74",
+            "color": "#fff7ed",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "space-mbgo9yc1k",
+          "type": "space",
+          "height": 16
+        },
+        {
+          "id": "button-tarioktj7",
+          "type": "button",
+          "text": "Reserve Table",
+          "href": "#reserve",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "transparent",
+            "color": "#fff7ed",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 12,
+              "right": 32,
+              "bottom": 12,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-ro10fi3tz",
+      "layout": "grid",
+      "columns": 3,
+      "style": {
+        "backgroundColor": "#fff7ed",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 32,
+        "rowGap": 32
+      },
+      "blocks": [
+        {
+          "id": "feature-lgz0sakfx",
+          "type": "feature",
+          "iconName": "Utensils",
+          "title": "Fresh Ingredients",
+          "description": "We source the finest local and organic ingredients daily.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#fdba74",
+            "iconSize": 48,
+            "titleColor": "#ea580c",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-xulesf37n",
+          "type": "feature",
+          "iconName": "ChefHat",
+          "title": "Expert Chefs",
+          "description": "Our award-winning chefs bring decades of culinary expertise.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#fdba74",
+            "iconSize": 48,
+            "titleColor": "#ea580c",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-50omkixr4",
+          "type": "feature",
+          "iconName": "Heart",
+          "title": "Made with Love",
+          "description": "Every dish is crafted with passion and attention to detail.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#fdba74",
+            "iconSize": 48,
+            "titleColor": "#ea580c",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-qxpdqac7k",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-6xpvctrm3",
+          "type": "text",
+          "content": "Menu Highlights",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#ea580c",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "gallery-1f0b2g8fn",
+          "type": "gallery",
+          "images": [
+            {
+              "id": "img-n6eeardjc",
+              "url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800",
+              "alt": "Dish 1",
+              "caption": "Signature Salad"
+            },
+            {
+              "id": "img-u949g3r9a",
+              "url": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800",
+              "alt": "Dish 2",
+              "caption": "Grilled Salmon"
+            },
+            {
+              "id": "img-bww1y9r15",
+              "url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800",
+              "alt": "Dish 3",
+              "caption": "Artisan Dessert"
+            }
+          ],
+          "autoPlay": false,
+          "autoPlayInterval": 3000,
+          "showNavButtons": true,
+          "showDots": true,
+          "loop": true,
+          "style": {
+            "aspectRatio": "16:9",
+            "borderRadius": 12,
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "imageObjectFit": "cover",
+            "showThumbnails": false,
+            "thumbnailSize": 80,
+            "showCaptions": true,
+            "captionColor": "#ffffff",
+            "captionSize": 14,
+            "captionBackgroundColor": "rgba(0,0,0,0.7)",
+            "navButtonColor": "#ffffff",
+            "navButtonBackgroundColor": "rgba(0,0,0,0.5)",
+            "dotColor": "#ffffff",
+            "dotActiveColor": "#fdba74",
+            "fontFamily": "system-ui, -apple-system, sans-serif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-yp1j3bi26",
+      "layout": "grid",
+      "columns": 2,
+      "style": {
+        "backgroundColor": "#fff7ed",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "text-e5ukdo2x3",
+          "type": "text",
+          "content": "What Diners Say",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#ea580c",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "testimonial-2xntyd0c1",
+          "type": "testimonial",
+          "quote": "The best dining experience in the city! Every dish was a masterpiece.",
+          "authorName": "Rachel Green",
+          "authorRole": "Food Critic",
+          "rating": 5,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "textColor": "#1e293b",
+            "authorColor": "#ea580c",
+            "roleColor": "#64748b",
+            "fontSize": 18,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showRating": true,
+            "ratingColor": "#fbbf24",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        },
+        {
+          "id": "testimonial-simge2lxq",
+          "type": "testimonial",
+          "quote": "Exceptional service and incredible flavors. Can't wait to come back!",
+          "authorName": "David Kim",
+          "authorRole": "Regular Customer",
+          "rating": 5,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "textColor": "#1e293b",
+            "authorColor": "#ea580c",
+            "roleColor": "#64748b",
+            "fontSize": 18,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showRating": true,
+            "ratingColor": "#fbbf24",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-p3vdwedza",
+      "style": {
+        "backgroundColor": "#fdba74",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-mjumh2c12",
+          "type": "text",
+          "content": "Visit Us Today",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#fff7ed",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-sy2kssmwm",
+          "type": "text",
+          "content": "Open Daily: 11am - 10pm",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#fff7eddd",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 8,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-6ig8yggsa",
+          "type": "text",
+          "content": "123 Culinary Street, Food District",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#fff7edcc",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-soasrutx7",
+          "type": "button",
+          "text": "Make Reservation",
+          "href": "#reserve",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#fff7ed",
+            "color": "#fdba74",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

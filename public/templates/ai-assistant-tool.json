@@ -1,0 +1,876 @@
+{
+  "id": "template-l1xo52rbv",
+  "name": "AI Assistant Tool",
+  "slug": "ai-assistant-tool",
+  "sections": [
+    {
+      "id": "section-0lq607tvn",
+      "style": {
+        "backgroundColor": "#0891b2",
+        "padding": {
+          "top": 120,
+          "right": 24,
+          "bottom": 120,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "icon-ecf2eweqn",
+          "type": "icon",
+          "iconName": "Cpu",
+          "style": {
+            "size": 64,
+            "color": "#67e8f9",
+            "alignment": "center",
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-s9eusqz2b",
+          "type": "text",
+          "content": "AI Assistant Tool",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 52,
+            "fontWeight": 700,
+            "color": "#ecfeff",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-0otf41d4e",
+          "type": "text",
+          "content": "AI-powered tool with use case examples, API docs, model comparison, and playground demo. Attract developers.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#ecfeffdd",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-2iwmnjb9o",
+          "type": "button",
+          "text": "Start Free Trial",
+          "href": "#trial",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#67e8f9",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-uoeg3h8kw",
+          "type": "text",
+          "content": "No credit card required • 14-day trial",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "color": "#ecfeffaa",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 16,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-xarchp1nl",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-a5smlbi64",
+          "type": "text",
+          "content": "Trusted by Leading Companies",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "color": "#64748b",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "logo-grid-vi1jestaq",
+          "type": "logo-grid",
+          "logos": [
+            {
+              "id": "logo-9culd1z5m",
+              "imageUrl": "https://via.placeholder.com/150x60/e2e8f0/64748b?text=Company+1",
+              "alt": "Company 1"
+            },
+            {
+              "id": "logo-n3ejmg4pz",
+              "imageUrl": "https://via.placeholder.com/150x60/e2e8f0/64748b?text=Company+2",
+              "alt": "Company 2"
+            },
+            {
+              "id": "logo-lfw1lc7uo",
+              "imageUrl": "https://via.placeholder.com/150x60/e2e8f0/64748b?text=Company+3",
+              "alt": "Company 3"
+            },
+            {
+              "id": "logo-rvskvao83",
+              "imageUrl": "https://via.placeholder.com/150x60/e2e8f0/64748b?text=Company+4",
+              "alt": "Company 4"
+            }
+          ],
+          "style": {
+            "columns": 4,
+            "gap": 32,
+            "logoSize": 60,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "backgroundColor": "transparent",
+            "logoBackgroundColor": "transparent",
+            "borderRadius": 0,
+            "alignment": "center",
+            "grayscale": true,
+            "grayscaleHover": true,
+            "opacity": 0.6,
+            "hoverOpacity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-o1nyvm6ne",
+      "layout": "grid",
+      "columns": 3,
+      "style": {
+        "backgroundColor": "#ecfeff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "text-g7lzxc16w",
+          "type": "text",
+          "content": "Powerful Features",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#0891b2",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "feature-dtw3q96pf",
+          "type": "feature",
+          "iconName": "Zap",
+          "title": "Lightning Fast",
+          "description": "Optimized performance for blazing fast response times.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#67e8f9",
+            "iconSize": 48,
+            "titleColor": "#0891b2",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-20yi2impn",
+          "type": "feature",
+          "iconName": "Lock",
+          "title": "Enterprise Security",
+          "description": "Bank-grade encryption and SOC 2 compliance.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#67e8f9",
+            "iconSize": 48,
+            "titleColor": "#0891b2",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-jmpr7ga4l",
+          "type": "feature",
+          "iconName": "BarChart",
+          "title": "Real-time Analytics",
+          "description": "Monitor your metrics with live dashboards.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#67e8f9",
+            "iconSize": 48,
+            "titleColor": "#0891b2",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-8yjgm1i9s",
+          "type": "feature",
+          "iconName": "Globe",
+          "title": "Global Scale",
+          "description": "Deploy worldwide with our CDN infrastructure.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#67e8f9",
+            "iconSize": 48,
+            "titleColor": "#0891b2",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-rcvnx36d1",
+          "type": "feature",
+          "iconName": "Code",
+          "title": "Developer Friendly",
+          "description": "Well-documented APIs and SDKs for all platforms.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#67e8f9",
+            "iconSize": 48,
+            "titleColor": "#0891b2",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-8gwl8medk",
+          "type": "feature",
+          "iconName": "Users",
+          "title": "24/7 Support",
+          "description": "Expert support team always ready to help.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#67e8f9",
+            "iconSize": 48,
+            "titleColor": "#0891b2",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-8dlmeu82x",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-tjfqf8a1t",
+          "type": "text",
+          "content": "See It In Action",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#0891b2",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "video-eavkx4kva",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "source": "youtube",
+          "style": {
+            "aspectRatio": "16:9",
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2pypbpx2k",
+      "style": {
+        "backgroundColor": "#67e8f9",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-8zsgr1inu",
+          "type": "text",
+          "content": "By The Numbers",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "stats-qejvh1t4p",
+          "type": "stats",
+          "items": [
+            {
+              "id": "stat-s8wim4tl2",
+              "label": "Active Users",
+              "value": 10000,
+              "suffix": "+",
+              "showProgressBar": false
+            },
+            {
+              "id": "stat-b6gkty8ly",
+              "label": "API Calls Daily",
+              "value": 1000000,
+              "prefix": "",
+              "suffix": "M+",
+              "showProgressBar": false
+            },
+            {
+              "id": "stat-x2j6iqgf1",
+              "label": "Uptime",
+              "value": 99.9,
+              "suffix": "%",
+              "showProgressBar": false
+            }
+          ],
+          "style": {
+            "backgroundColor": "transparent",
+            "borderRadius": 0,
+            "padding": {
+              "top": 16,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "labelColor": "#64748b",
+            "labelSize": 14,
+            "valueColor": "#ecfeff",
+            "valueSize": 36,
+            "progressBarColor": "#ecfeff",
+            "progressBarBackgroundColor": "#e2e8f0",
+            "progressBarHeight": 8,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "layout": "horizontal",
+            "itemSpacing": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-clxr52duc",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-tszb8u1lg",
+          "type": "text",
+          "content": "Frequently Asked Questions",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#0891b2",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "faq-odxw7wdgh",
+          "type": "faq",
+          "items": [
+            {
+              "id": "faq-pze4xgrd5",
+              "question": "How does the free trial work?",
+              "answer": "You get full access to all features for 14 days, no credit card required. Cancel anytime."
+            },
+            {
+              "id": "faq-f4geui09r",
+              "question": "Can I upgrade or downgrade later?",
+              "answer": "Yes, you can change your plan at any time. Changes take effect immediately."
+            },
+            {
+              "id": "faq-misr9a407",
+              "question": "What payment methods do you accept?",
+              "answer": "We accept all major credit cards, PayPal, and wire transfers for enterprise customers."
+            },
+            {
+              "id": "faq-il6e7unts",
+              "question": "Is my data secure?",
+              "answer": "Absolutely. We use bank-grade encryption and are SOC 2 certified."
+            }
+          ],
+          "style": {
+            "fontSize": 16,
+            "fontWeight": 400,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "questionColor": "#0891b2",
+            "answerColor": "#64748b",
+            "backgroundColor": "#ffffff",
+            "padding": {
+              "top": 16,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-ufyzsvbnc",
+      "style": {
+        "backgroundColor": "#0891b2",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-5bpu3ojrq",
+          "type": "text",
+          "content": "Ready to Get Started?",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#ecfeff",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-gm53tvkoz",
+          "type": "text",
+          "content": "Join thousands of companies already using our platform",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#ecfeffdd",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-ult7nnq71",
+          "type": "button",
+          "text": "Start Free Trial",
+          "href": "#signup",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#67e8f9",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

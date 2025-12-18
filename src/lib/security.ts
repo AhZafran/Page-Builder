@@ -65,6 +65,33 @@ export function sanitizeURL(url: string): string | null {
 }
 
 /**
+ * Validates and sanitizes image URLs, allowing base64 data URLs for uploaded images
+ */
+export function sanitizeImageURL(url: string): string | null {
+  if (!url || typeof url !== 'string') {
+    return null
+  }
+
+  const trimmedUrl = url.trim()
+  const lowerUrl = trimmedUrl.toLowerCase()
+
+  // Allow data URLs for images (uploaded files converted to base64)
+  if (lowerUrl.startsWith('data:image/')) {
+    // Validate it's a proper image data URL
+    const validImageDataURL = /^data:image\/(png|jpe?g|gif|webp|svg\+xml);base64,/i
+    if (validImageDataURL.test(trimmedUrl)) {
+      return trimmedUrl
+    } else {
+      console.warn('Invalid image data URL format')
+      return null
+    }
+  }
+
+  // For all other URLs, use the standard sanitization
+  return sanitizeURL(trimmedUrl)
+}
+
+/**
  * Extracts URL from embed code if user pastes iframe HTML
  */
 export function extractURLFromEmbed(input: string): string {

@@ -35,6 +35,10 @@ export function SectionProperties({ section }: SectionPropertiesProps) {
     updateSection(section.id, updates)
   }
 
+  const handleLayoutChange = (key: string, value: any) => {
+    updateSection(section.id, { [key]: value })
+  }
+
   // Debounced handler for number inputs
   const debouncedHandleStyleChange = useDebouncedCallback(handleStyleChange, 150)
 
@@ -89,8 +93,219 @@ export function SectionProperties({ section }: SectionPropertiesProps) {
     handleStyleChange('backgroundImage', '')
   }
 
+  // Quick layout presets
+  const applyLayoutPreset = (preset: 'vertical' | 'horizontal-2' | 'horizontal-3' | 'grid-2' | 'grid-3') => {
+    switch (preset) {
+      case 'vertical':
+        updateSection(section.id, {
+          layout: 'flex',
+          columns: undefined,
+          style: {
+            ...section.style,
+            flex: {
+              ...section.style.flex,
+              direction: 'column',
+              alignItems: 'stretch',
+              justifyContent: 'flex-start',
+              wrap: 'nowrap',
+            },
+            columnGap: 0,
+            rowGap: 16,
+          },
+        })
+        break
+      case 'horizontal-2':
+        updateSection(section.id, {
+          layout: 'flex',
+          columns: undefined,
+          style: {
+            ...section.style,
+            flex: {
+              ...section.style.flex,
+              direction: 'row',
+              alignItems: 'stretch',
+              justifyContent: 'space-between',
+              wrap: 'wrap',
+            },
+            columnGap: 24,
+            rowGap: 16,
+          },
+        })
+        break
+      case 'horizontal-3':
+        updateSection(section.id, {
+          layout: 'flex',
+          columns: undefined,
+          style: {
+            ...section.style,
+            flex: {
+              ...section.style.flex,
+              direction: 'row',
+              alignItems: 'stretch',
+              justifyContent: 'space-between',
+              wrap: 'wrap',
+            },
+            columnGap: 24,
+            rowGap: 16,
+          },
+        })
+        break
+      case 'grid-2':
+        updateSection(section.id, {
+          layout: 'grid',
+          columns: 2,
+          style: {
+            ...section.style,
+            columnGap: 24,
+            rowGap: 24,
+          },
+        })
+        break
+      case 'grid-3':
+        updateSection(section.id, {
+          layout: 'grid',
+          columns: 3,
+          style: {
+            ...section.style,
+            columnGap: 24,
+            rowGap: 24,
+          },
+        })
+        break
+    }
+  }
+
   return (
     <div className="space-y-6">
+      {/* Quick Layout Presets */}
+      <div>
+        <Label className="text-xs font-semibold mb-3 block">Quick Layout</Label>
+        <div className="grid grid-cols-2 gap-2">
+          <Button
+            variant={section.layout === 'flex' && section.style.flex.direction === 'column' ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => applyLayoutPreset('vertical')}
+            className="flex flex-col items-center justify-center h-16"
+          >
+            <div className="flex flex-col gap-1 mb-1">
+              <div className="w-8 h-1 bg-current opacity-60 rounded"></div>
+              <div className="w-8 h-1 bg-current opacity-60 rounded"></div>
+              <div className="w-8 h-1 bg-current opacity-60 rounded"></div>
+            </div>
+            <span className="text-xs">Vertical</span>
+          </Button>
+          <Button
+            variant={section.layout === 'flex' && section.style.flex.direction === 'row' ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => applyLayoutPreset('horizontal-2')}
+            className="flex flex-col items-center justify-center h-16"
+          >
+            <div className="flex gap-1 mb-1">
+              <div className="w-3 h-8 bg-current opacity-60 rounded"></div>
+              <div className="w-3 h-8 bg-current opacity-60 rounded"></div>
+            </div>
+            <span className="text-xs">Flex 2-Col</span>
+          </Button>
+          <Button
+            variant={section.layout === 'grid' && section.columns === 2 ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => applyLayoutPreset('grid-2')}
+            className="flex flex-col items-center justify-center h-16"
+          >
+            <div className="grid grid-cols-2 gap-1 mb-1">
+              <div className="w-3 h-6 bg-current opacity-60 rounded"></div>
+              <div className="w-3 h-6 bg-current opacity-60 rounded"></div>
+            </div>
+            <span className="text-xs">Grid 2-Col</span>
+          </Button>
+          <Button
+            variant={section.layout === 'grid' && section.columns === 3 ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => applyLayoutPreset('grid-3')}
+            className="flex flex-col items-center justify-center h-16"
+          >
+            <div className="grid grid-cols-3 gap-1 mb-1">
+              <div className="w-2 h-6 bg-current opacity-60 rounded"></div>
+              <div className="w-2 h-6 bg-current opacity-60 rounded"></div>
+              <div className="w-2 h-6 bg-current opacity-60 rounded"></div>
+            </div>
+            <span className="text-xs">Grid 3-Col</span>
+          </Button>
+        </div>
+        <p className="text-xs text-gray-500 mt-2">
+          {section.layout === 'grid'
+            ? `✓ Grid layout with ${section.columns || 2} columns`
+            : section.style.flex.direction === 'row'
+              ? '✓ Flex layout - horizontal'
+              : '✓ Flex layout - vertical'}
+        </p>
+      </div>
+
+      <Separator />
+
+      {/* Layout Type and Grid Controls */}
+      <div>
+        <Label className="text-xs font-semibold mb-3 block">Layout Settings</Label>
+
+        <div className="space-y-3">
+          <div>
+            <Label className="text-xs text-gray-600">Layout Type</Label>
+            <Select
+              value={section.layout || 'flex'}
+              onValueChange={(value) => handleLayoutChange('layout', value)}
+            >
+              <SelectTrigger className="mt-1">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="flex">Flexbox</SelectItem>
+                <SelectItem value="grid">Grid</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+
+          {section.layout === 'grid' && (
+            <div>
+              <Label className="text-xs text-gray-600">Grid Columns</Label>
+              <Input
+                type="number"
+                min="1"
+                max="6"
+                value={section.columns || 2}
+                onChange={(e) => handleLayoutChange('columns', Number(e.target.value))}
+                className="mt-1"
+              />
+              <p className="text-xs text-gray-500 mt-1">Number of columns (1-6)</p>
+            </div>
+          )}
+
+          <div className="grid grid-cols-2 gap-2">
+            <div>
+              <Label className="text-xs text-gray-600">Column Gap</Label>
+              <Input
+                type="number"
+                min="0"
+                value={section.style.columnGap || 0}
+                onChange={(e) => debouncedHandleStyleChange('columnGap', Number(e.target.value))}
+                className="mt-1"
+              />
+            </div>
+            <div>
+              <Label className="text-xs text-gray-600">Row Gap</Label>
+              <Input
+                type="number"
+                min="0"
+                value={section.style.rowGap || 0}
+                onChange={(e) => debouncedHandleStyleChange('rowGap', Number(e.target.value))}
+                className="mt-1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Separator />
+
       {/* Background */}
       <div>
         <Label className="text-xs font-semibold">Background Color</Label>

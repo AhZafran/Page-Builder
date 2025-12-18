@@ -1,0 +1,321 @@
+{
+  "id": "template-ecommerce-001",
+  "name": "E-commerce Product Page",
+  "slug": "ecommerce-product-page",
+  "sections": [
+    {
+      "id": "hero-section",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": { "top": 100, "right": 24, "bottom": 100, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "product-badge",
+          "type": "text",
+          "content": "NEW ARRIVAL",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 14,
+            "fontWeight": 700,
+            "color": "#ef4444",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 8, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "product-name",
+          "type": "text",
+          "content": "UltraSound Pro Wireless Headphones",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 700,
+            "color": "#111827",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "product-description",
+          "type": "text",
+          "content": "Experience studio-quality sound with active noise cancellation, 40-hour battery life, and premium comfort. The perfect companion for music lovers and professionals.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#6b7280",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 32, "bottom": 16, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "product-price",
+          "type": "text",
+          "content": "$299.99",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#059669",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "buy-button",
+          "type": "button",
+          "text": "Add to Cart",
+          "href": "#cart",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#059669",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": { "top": 16, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "shipping-note",
+          "type": "text",
+          "content": "Free shipping on orders over $50 • 30-day money-back guarantee",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "color": "#9ca3af",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 0, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "features-section",
+      "style": {
+        "backgroundColor": "#f9fafb",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "features-title",
+          "type": "text",
+          "content": "Premium Features",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#111827",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-1",
+          "type": "text",
+          "content": "🎵 Active Noise Cancellation - Block out the world and immerse yourself in pure sound with advanced ANC technology.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#374151",
+            "textAlign": "center",
+            "padding": { "top": 16, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-2",
+          "type": "text",
+          "content": "🔋 40-Hour Battery Life - Enjoy non-stop music for days with fast charging that gives you 5 hours in just 10 minutes.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#374151",
+            "textAlign": "center",
+            "padding": { "top": 16, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-3",
+          "type": "text",
+          "content": "☁️ Cloud-Like Comfort - Memory foam ear cushions and adjustable headband for all-day wearing without fatigue.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#374151",
+            "textAlign": "center",
+            "padding": { "top": 16, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "reviews-section",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "reviews-title",
+          "type": "text",
+          "content": "What Customers Say",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#111827",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "rating",
+          "type": "text",
+          "content": "⭐⭐⭐⭐⭐ 4.9/5 from 2,847 reviews",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 600,
+            "color": "#f59e0b",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "review-1",
+          "type": "text",
+          "content": "\"Best headphones I've ever owned. The sound quality is incredible and the noise cancellation works like magic!\" - Sarah M.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "fontStyle": "italic",
+            "color": "#4b5563",
+            "textAlign": "center",
+            "backgroundColor": "#f9fafb",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "review-2",
+          "type": "text",
+          "content": "\"Worth every penny. Comfortable for long sessions and the battery life is amazing. Highly recommended!\" - James T.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "fontStyle": "italic",
+            "color": "#4b5563",
+            "textAlign": "center",
+            "backgroundColor": "#f9fafb",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "style": {
+        "backgroundColor": "#059669",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "cta-title",
+          "type": "text",
+          "content": "Limited Time Offer",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "cta-subtitle",
+          "type": "text",
+          "content": "Get 20% off + free premium carrying case with your order today",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#d1fae5",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "cta-button",
+          "type": "button",
+          "text": "Shop Now",
+          "href": "#shop",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "color": "#059669",
+            "fontSize": 18,
+            "fontWeight": 700,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": { "top": 16, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    }
+  ]
+}

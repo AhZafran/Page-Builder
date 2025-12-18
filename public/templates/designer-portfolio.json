@@ -1,0 +1,563 @@
+{
+  "id": "template-96ypv9pc2",
+  "name": "Designer Portfolio",
+  "slug": "designer-portfolio",
+  "sections": [
+    {
+      "id": "section-4rxzbknij",
+      "style": {
+        "backgroundColor": "#0c4a6e",
+        "padding": {
+          "top": 120,
+          "right": 24,
+          "bottom": 120,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "icon-y731z6gmt",
+          "type": "icon",
+          "iconName": "Sparkles",
+          "style": {
+            "size": 64,
+            "color": "#0ea5e9",
+            "alignment": "center",
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-rq4p7pzpy",
+          "type": "text",
+          "content": "Designer Portfolio",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 700,
+            "color": "#f0f9ff",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-0adrtf1av",
+          "type": "text",
+          "content": "Stunning designer portfolio with case studies, design process, and client work. Showcase creative excellence.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#f0f9ffdd",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "social-1vhg02xtm",
+          "type": "social",
+          "links": [
+            {
+              "platform": "twitter",
+              "url": "https://twitter.com"
+            },
+            {
+              "platform": "linkedin",
+              "url": "https://linkedin.com"
+            },
+            {
+              "platform": "github",
+              "url": "https://github.com"
+            }
+          ],
+          "style": {
+            "size": 32,
+            "layout": "horizontal",
+            "alignment": "center",
+            "spacing": 16,
+            "useBrandColors": true,
+            "margin": {
+              "top": 16,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-csa22j7uw",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-dvyzv5c7v",
+          "type": "text",
+          "content": "About Me",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#0c4a6e",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "quote-g735z3cri",
+          "type": "quote",
+          "quote": "Passionate about creating beautiful and functional experiences that make a difference.",
+          "author": "Your Name",
+          "authorTitle": "Your Title",
+          "style": {
+            "backgroundColor": "#f0f9ff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "quoteColor": "#0c4a6e",
+            "quoteSize": 24,
+            "authorColor": "#0ea5e9",
+            "authorSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "borderLeftWidth": 4,
+            "borderLeftColor": "#0ea5e9",
+            "fontStyle": "italic",
+            "showQuoteMarks": true,
+            "quoteMarkColor": "#0ea5e9"
+          }
+        },
+        {
+          "id": "divider-10ccqp4xa",
+          "type": "divider",
+          "style": {
+            "width": "100%",
+            "height": 2,
+            "color": "#f0f9ff",
+            "style": "solid",
+            "margin": {
+              "top": 32,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-kugwrahem",
+      "layout": "grid",
+      "columns": 2,
+      "style": {
+        "backgroundColor": "#f0f9ff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 32,
+        "rowGap": 32
+      },
+      "blocks": [
+        {
+          "id": "text-tse3lgcfj",
+          "type": "text",
+          "content": "Featured Work",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#0c4a6e",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "image-dxld0sr5r",
+          "type": "image",
+          "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+          "alt": "Project 1",
+          "style": {
+            "borderRadius": 16,
+            "objectFit": "cover",
+            "width": "100%",
+            "height": "auto",
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "image-lo8n4rssf",
+          "type": "image",
+          "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+          "alt": "Project 2",
+          "style": {
+            "borderRadius": 16,
+            "objectFit": "cover",
+            "width": "100%",
+            "height": "auto",
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "image-y6yyjx5vi",
+          "type": "image",
+          "src": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800",
+          "alt": "Project 3",
+          "style": {
+            "borderRadius": 16,
+            "objectFit": "cover",
+            "width": "100%",
+            "height": "auto",
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2o4vmcfgs",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-29ksu06yw",
+          "type": "text",
+          "content": "Skills & Expertise",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#0c4a6e",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "stats-9c66l5oav",
+          "type": "stats",
+          "items": [
+            {
+              "id": "stat-pj9i22jom",
+              "label": "Design",
+              "value": 95,
+              "maxValue": 100,
+              "suffix": "%",
+              "showProgressBar": true
+            },
+            {
+              "id": "stat-latkbo4ov",
+              "label": "Development",
+              "value": 90,
+              "maxValue": 100,
+              "suffix": "%",
+              "showProgressBar": true
+            },
+            {
+              "id": "stat-6q7z9tabh",
+              "label": "Strategy",
+              "value": 85,
+              "maxValue": 100,
+              "suffix": "%",
+              "showProgressBar": true
+            }
+          ],
+          "style": {
+            "backgroundColor": "transparent",
+            "borderRadius": 0,
+            "padding": {
+              "top": 16,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "labelColor": "#64748b",
+            "labelSize": 14,
+            "valueColor": "#0c4a6e",
+            "valueSize": 36,
+            "progressBarColor": "#0ea5e9",
+            "progressBarBackgroundColor": "#e2e8f0",
+            "progressBarHeight": 8,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "layout": "horizontal",
+            "itemSpacing": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-uo69y2lxg",
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-6q15q8lfw",
+          "type": "text",
+          "content": "Let's Work Together",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 24,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-lnw3h68q7",
+          "type": "text",
+          "content": "I'm always open to discussing new projects and creative ideas.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#ffffffee",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-nxtvl3t5u",
+          "type": "button",
+          "text": "Get in Touch",
+          "href": "#contact",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "color": "#0ea5e9",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

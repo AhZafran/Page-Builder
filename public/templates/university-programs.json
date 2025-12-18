@@ -1,0 +1,733 @@
+{
+  "id": "template-ktgdytok7",
+  "name": "University Programs",
+  "slug": "university-programs",
+  "sections": [
+    {
+      "id": "section-zwxs4h5je",
+      "style": {
+        "backgroundColor": "#7c2d12",
+        "padding": {
+          "top": 100,
+          "right": 24,
+          "bottom": 100,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "icon-r05mvquxi",
+          "type": "icon",
+          "iconName": "GraduationCap",
+          "style": {
+            "size": 64,
+            "color": "#fb923c",
+            "alignment": "center",
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-hrq1jwifa",
+          "type": "text",
+          "content": "University Programs",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 700,
+            "color": "#fff7ed",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-vwgu0pwbz",
+          "type": "text",
+          "content": "Academic university site with program overview, campus life, admissions info, and application portal. Attract students.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#fff7eddd",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-v8bhwgeqp",
+          "type": "button",
+          "text": "Explore Courses",
+          "href": "#courses",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#fb923c",
+            "color": "#fff7ed",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-jsmttcb3l",
+      "layout": "grid",
+      "columns": 3,
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "text-kxnhl8jq0",
+          "type": "text",
+          "content": "Why Choose Us",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#7c2d12",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "feature-46st8euoh",
+          "type": "feature",
+          "iconName": "BookOpen",
+          "title": "Expert Instructors",
+          "description": "Learn from industry professionals with real-world experience.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#fb923c",
+            "iconSize": 48,
+            "titleColor": "#7c2d12",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-2xu4feni5",
+          "type": "feature",
+          "iconName": "Award",
+          "title": "Certified Programs",
+          "description": "Earn recognized certifications upon course completion.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#fb923c",
+            "iconSize": 48,
+            "titleColor": "#7c2d12",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-zq6yux0rj",
+          "type": "feature",
+          "iconName": "Clock",
+          "title": "Flexible Learning",
+          "description": "Study at your own pace with lifetime access to materials.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#fb923c",
+            "iconSize": 48,
+            "titleColor": "#7c2d12",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-lfp6wkvl7",
+      "style": {
+        "backgroundColor": "#fff7ed",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-efnq78o28",
+          "type": "text",
+          "content": "Popular Courses",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#7c2d12",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "gallery-qu16tmovd",
+          "type": "gallery",
+          "images": [
+            {
+              "id": "img-kh25gussg",
+              "url": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800",
+              "alt": "Course 1",
+              "caption": "Web Development Bootcamp"
+            },
+            {
+              "id": "img-kso8fojro",
+              "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800",
+              "alt": "Course 2",
+              "caption": "Data Science Fundamentals"
+            },
+            {
+              "id": "img-ky3qeugfk",
+              "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800",
+              "alt": "Course 3",
+              "caption": "Digital Marketing Mastery"
+            }
+          ],
+          "autoPlay": false,
+          "autoPlayInterval": 3000,
+          "showNavButtons": true,
+          "showDots": true,
+          "loop": true,
+          "style": {
+            "aspectRatio": "16:9",
+            "borderRadius": 12,
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "imageObjectFit": "cover",
+            "showThumbnails": false,
+            "thumbnailSize": 80,
+            "showCaptions": true,
+            "captionColor": "#ffffff",
+            "captionSize": 14,
+            "captionBackgroundColor": "rgba(0,0,0,0.7)",
+            "navButtonColor": "#ffffff",
+            "navButtonBackgroundColor": "rgba(0,0,0,0.5)",
+            "dotColor": "#ffffff",
+            "dotActiveColor": "#fb923c",
+            "fontFamily": "system-ui, -apple-system, sans-serif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-gqxas9wuf",
+      "style": {
+        "backgroundColor": "#fb923c",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-e2mvhyyg0",
+          "type": "text",
+          "content": "Our Impact",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#fff7ed",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "stats-8gqn5w1q2",
+          "type": "stats",
+          "items": [
+            {
+              "id": "stat-ipiger2h4",
+              "label": "Students Enrolled",
+              "value": 50000,
+              "suffix": "+",
+              "showProgressBar": false
+            },
+            {
+              "id": "stat-o8qfk6zc5",
+              "label": "Courses Available",
+              "value": 200,
+              "suffix": "+",
+              "showProgressBar": false
+            },
+            {
+              "id": "stat-0niit2nox",
+              "label": "Satisfaction Rate",
+              "value": 98,
+              "suffix": "%",
+              "showProgressBar": false
+            }
+          ],
+          "style": {
+            "backgroundColor": "transparent",
+            "borderRadius": 0,
+            "padding": {
+              "top": 16,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "labelColor": "#64748b",
+            "labelSize": 14,
+            "valueColor": "#fff7ed",
+            "valueSize": 36,
+            "progressBarColor": "#fff7ed",
+            "progressBarBackgroundColor": "#e2e8f0",
+            "progressBarHeight": 8,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "layout": "horizontal",
+            "itemSpacing": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2pycten62",
+      "layout": "grid",
+      "columns": 2,
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "text-cmhqu5yw4",
+          "type": "text",
+          "content": "Student Success Stories",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#7c2d12",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "testimonial-h30ctg2sk",
+          "type": "testimonial",
+          "quote": "This course changed my career! I landed my dream job within 3 months of completing the program.",
+          "authorName": "Alex Thompson",
+          "authorRole": "Software Engineer",
+          "rating": 5,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "textColor": "#1e293b",
+            "authorColor": "#7c2d12",
+            "roleColor": "#64748b",
+            "fontSize": 18,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showRating": true,
+            "ratingColor": "#fbbf24",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        },
+        {
+          "id": "testimonial-yvx3zdpxf",
+          "type": "testimonial",
+          "quote": "The instructors are amazing and the content is top-notch. Best investment I've made in my education.",
+          "authorName": "Maria Rodriguez",
+          "authorRole": "Product Manager",
+          "rating": 5,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "textColor": "#1e293b",
+            "authorColor": "#7c2d12",
+            "roleColor": "#64748b",
+            "fontSize": 18,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showRating": true,
+            "ratingColor": "#fbbf24",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-72k78m0iv",
+      "style": {
+        "backgroundColor": "#fff7ed",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-sfs8p0xvn",
+          "type": "text",
+          "content": "Get Started Today",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#7c2d12",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "form-xabbe57o8",
+          "type": "form",
+          "title": "Request More Information",
+          "description": "Fill out the form below and we'll get back to you shortly.",
+          "fields": [
+            {
+              "id": "field-6dypb7jc7",
+              "type": "text",
+              "label": "Full Name",
+              "placeholder": "John Doe",
+              "required": true
+            },
+            {
+              "id": "field-kzn8u5xtn",
+              "type": "email",
+              "label": "Email Address",
+              "placeholder": "john@example.com",
+              "required": true
+            },
+            {
+              "id": "field-65qnu8re6",
+              "type": "select",
+              "label": "Course Interest",
+              "required": true,
+              "options": [
+                "Web Development",
+                "Data Science",
+                "Digital Marketing",
+                "Business",
+                "Other"
+              ]
+            },
+            {
+              "id": "field-6jidkc2if",
+              "type": "textarea",
+              "label": "Questions or Comments",
+              "placeholder": "Tell us what you'd like to learn...",
+              "required": false
+            }
+          ],
+          "submitButtonText": "Submit",
+          "submitAction": "none",
+          "successMessage": "Thank you! We'll be in touch soon.",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "labelColor": "#7c2d12",
+            "labelSize": 14,
+            "inputBackgroundColor": "#f8fafc",
+            "inputBorderColor": "#e2e8f0",
+            "inputTextColor": "#1e293b",
+            "inputBorderRadius": 8,
+            "buttonBackgroundColor": "#fb923c",
+            "buttonTextColor": "#ffffff",
+            "buttonBorderRadius": 8,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "spacing": 16
+          }
+        }
+      ]
+    }
+  ]
+}

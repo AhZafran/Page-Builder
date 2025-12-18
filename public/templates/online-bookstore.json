@@ -1,0 +1,632 @@
+{
+  "id": "template-iq7vhjjvl",
+  "name": "Online Bookstore",
+  "slug": "online-bookstore",
+  "sections": [
+    {
+      "id": "section-6lzbu2kz7",
+      "style": {
+        "backgroundColor": "#fef3c7",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-qsyoxi3nd",
+          "type": "text",
+          "content": "Online Bookstore",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 700,
+            "color": "#431407",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "text-856tw8elq",
+          "type": "text",
+          "content": "Cozy bookstore with curated collections, author profiles, and reading recommendations. Engage book lovers.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#64748b",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 32,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "image-ijwkar1ms",
+          "type": "image",
+          "src": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800",
+          "alt": "Product showcase",
+          "style": {
+            "borderRadius": 12,
+            "objectFit": "cover",
+            "width": "100%",
+            "height": "auto",
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "button-560htpyqc",
+          "type": "button",
+          "text": "Shop Now",
+          "href": "#shop",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#92400e",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": {
+              "top": 16,
+              "right": 48,
+              "bottom": 16,
+              "left": 48
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-qa58txalx",
+      "layout": "grid",
+      "columns": 4,
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 60,
+          "right": 24,
+          "bottom": 60,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 16,
+        "rowGap": 16
+      },
+      "blocks": [
+        {
+          "id": "feature-guaqtqr6y",
+          "type": "feature",
+          "iconName": "Truck",
+          "title": "Free Shipping",
+          "description": "On orders over $50",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#92400e",
+            "iconSize": 48,
+            "titleColor": "#431407",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-u3zgb96op",
+          "type": "feature",
+          "iconName": "CreditCard",
+          "title": "Secure Payment",
+          "description": "100% secure transactions",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#92400e",
+            "iconSize": 48,
+            "titleColor": "#431407",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-v67pgwdum",
+          "type": "feature",
+          "iconName": "RotateCcw",
+          "title": "Easy Returns",
+          "description": "30-day return policy",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#92400e",
+            "iconSize": 48,
+            "titleColor": "#431407",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        },
+        {
+          "id": "feature-xdbv74q8h",
+          "type": "feature",
+          "iconName": "Headphones",
+          "title": "24/7 Support",
+          "description": "Always here to help",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "iconColor": "#92400e",
+            "iconSize": 48,
+            "titleColor": "#431407",
+            "titleSize": 20,
+            "titleWeight": 600,
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showIcon": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-nb1sdnqdv",
+      "style": {
+        "backgroundColor": "#f8fafc",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "text-8ricok98t",
+          "type": "text",
+          "content": "Featured Products",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#431407",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "gallery-i3b1m2299",
+          "type": "gallery",
+          "images": [
+            {
+              "id": "img-r7pp59g5w",
+              "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
+              "alt": "Product 1",
+              "caption": "Premium Product"
+            },
+            {
+              "id": "img-28cmfs41z",
+              "url": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800",
+              "alt": "Product 2",
+              "caption": "Best Seller"
+            },
+            {
+              "id": "img-ey379nf0n",
+              "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+              "alt": "Product 3",
+              "caption": "New Arrival"
+            }
+          ],
+          "autoPlay": false,
+          "autoPlayInterval": 3000,
+          "showNavButtons": true,
+          "showDots": true,
+          "loop": true,
+          "style": {
+            "aspectRatio": "16:9",
+            "borderRadius": 12,
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "imageObjectFit": "cover",
+            "showThumbnails": false,
+            "thumbnailSize": 80,
+            "showCaptions": true,
+            "captionColor": "#ffffff",
+            "captionSize": 14,
+            "captionBackgroundColor": "rgba(0,0,0,0.7)",
+            "navButtonColor": "#ffffff",
+            "navButtonBackgroundColor": "rgba(0,0,0,0.5)",
+            "dotColor": "#ffffff",
+            "dotActiveColor": "#92400e",
+            "fontFamily": "system-ui, -apple-system, sans-serif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-nc1uzlx2t",
+      "layout": "grid",
+      "columns": 3,
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "row",
+          "alignItems": "stretch",
+          "justifyContent": "center",
+          "wrap": "wrap"
+        },
+        "columnGap": 24,
+        "rowGap": 24
+      },
+      "blocks": [
+        {
+          "id": "text-yrhopdetx",
+          "type": "text",
+          "content": "Customer Reviews",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#431407",
+            "textAlign": "center",
+            "padding": {
+              "top": 0,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 48,
+              "left": 0
+            }
+          }
+        },
+        {
+          "id": "testimonial-670vasksk",
+          "type": "testimonial",
+          "quote": "Amazing quality! The product exceeded my expectations. Will definitely order again.",
+          "authorName": "Emma Wilson",
+          "authorRole": "Verified Buyer",
+          "rating": 5,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "textColor": "#1e293b",
+            "authorColor": "#431407",
+            "roleColor": "#64748b",
+            "fontSize": 18,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showRating": true,
+            "ratingColor": "#fbbf24",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        },
+        {
+          "id": "testimonial-ri03xnknq",
+          "type": "testimonial",
+          "quote": "Fast shipping and excellent customer service. Very satisfied with my purchase.",
+          "authorName": "James Martinez",
+          "authorRole": "Verified Buyer",
+          "rating": 5,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "textColor": "#1e293b",
+            "authorColor": "#431407",
+            "roleColor": "#64748b",
+            "fontSize": 18,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showRating": true,
+            "ratingColor": "#fbbf24",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        },
+        {
+          "id": "testimonial-zsmhfkf11",
+          "type": "testimonial",
+          "quote": "Best online shopping experience I've had. The quality is outstanding!",
+          "authorName": "Lisa Anderson",
+          "authorRole": "Verified Buyer",
+          "rating": 5,
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 12,
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 16,
+              "left": 0
+            },
+            "textColor": "#1e293b",
+            "authorColor": "#431407",
+            "roleColor": "#64748b",
+            "fontSize": 18,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "alignment": "center",
+            "showRating": true,
+            "ratingColor": "#fbbf24",
+            "borderWidth": 1,
+            "borderColor": "#e2e8f0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-yfl0oxo5j",
+      "style": {
+        "backgroundColor": "#431407",
+        "padding": {
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24
+        },
+        "margin": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "newsletter-mrg9r0b12",
+          "type": "newsletter",
+          "heading": "Stay in the loop",
+          "description": "Subscribe to our newsletter for updates, tips, and exclusive content.",
+          "inputPlaceholder": "Enter your email",
+          "buttonText": "Subscribe",
+          "successMessage": "Thank you for subscribing!",
+          "showPrivacyCheckbox": true,
+          "privacyText": "I agree to receive marketing emails",
+          "style": {
+            "layout": "inline",
+            "padding": {
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32
+            },
+            "margin": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "backgroundColor": "#fef3c722",
+            "borderRadius": 12,
+            "headingColor": "#fef3c7",
+            "headingSize": 28,
+            "headingWeight": 700,
+            "headingAlign": "center",
+            "descriptionColor": "#64748b",
+            "descriptionSize": 16,
+            "descriptionAlign": "center",
+            "inputBackgroundColor": "#ffffff",
+            "inputTextColor": "#1e293b",
+            "inputBorderColor": "#e2e8f0",
+            "inputBorderWidth": 1,
+            "inputBorderRadius": 8,
+            "inputPadding": 12,
+            "buttonBackgroundColor": "#92400e",
+            "buttonTextColor": "#ffffff",
+            "buttonBorderRadius": 8,
+            "buttonPadding": 12,
+            "buttonFontSize": 16,
+            "buttonFontWeight": 600,
+            "gap": 16
+          }
+        }
+      ]
+    }
+  ]
+}

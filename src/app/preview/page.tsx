@@ -5,22 +5,21 @@ import { useRouter } from 'next/navigation'
 import type { PageData } from '@/types'
 import { BlockRenderer } from '@/components/editor/BlockRenderer'
 import { Button } from '@/components/ui/button'
-import { X, Smartphone, Tablet, Monitor, Maximize } from 'lucide-react'
+import { X, Smartphone, Tablet, Monitor } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
-type DevicePreset = 'mobile' | 'tablet' | 'desktop' | 'full'
+type DevicePreset = 'mobile' | 'tablet' | 'desktop'
 
 const devicePresets = {
   mobile: { width: 375, icon: Smartphone, label: 'Mobile' },
   tablet: { width: 768, icon: Tablet, label: 'Tablet' },
   desktop: { width: 1024, icon: Monitor, label: 'Desktop' },
-  full: { width: '100%', icon: Maximize, label: 'Full' },
 }
 
 export default function PreviewPage() {
   const router = useRouter()
   const [pageData, setPageData] = useState<PageData | null>(null)
-  const [device, setDevice] = useState<DevicePreset>('full')
+  const [device, setDevice] = useState<DevicePreset>('desktop')
 
   useEffect(() => {
     // Get page data from sessionStorage (set by the editor)
@@ -47,7 +46,7 @@ export default function PreviewPage() {
     )
   }
 
-  const containerWidth = device === 'full' ? '100%' : `${devicePresets[device].width}px`
+  const containerWidth = `${devicePresets[device].width}px`
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -80,11 +79,9 @@ export default function PreviewPage() {
           </div>
 
           {/* Width indicator */}
-          {device !== 'full' && (
-            <div className="text-white/60 text-xs">
-              {devicePresets[device].width}px
-            </div>
-          )}
+          <div className="text-white/60 text-xs">
+            {devicePresets[device].width}px
+          </div>
         </div>
 
         <Button
@@ -102,13 +99,10 @@ export default function PreviewPage() {
       <div className="pt-12 min-h-[calc(100vh-3rem)] flex justify-center p-4">
         {/* Responsive container with device width */}
         <div
-          className={cn(
-            'bg-white shadow-lg transition-all duration-300 overflow-hidden',
-            device !== 'full' && 'rounded-lg'
-          )}
+          className="bg-white shadow-lg transition-all duration-300 overflow-hidden rounded-lg"
           style={{
             width: containerWidth,
-            maxWidth: device === 'full' ? '100%' : containerWidth,
+            maxWidth: containerWidth,
           }}
         >
           {pageData.sections.map((section) => {

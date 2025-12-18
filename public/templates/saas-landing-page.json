@@ -1,0 +1,262 @@
+{
+  "id": "template-saas-001",
+  "name": "SaaS Landing Page",
+  "slug": "saas-landing-page",
+  "sections": [
+    {
+      "id": "hero-section",
+      "style": {
+        "backgroundColor": "#0f172a",
+        "padding": { "top": 100, "right": 24, "bottom": 100, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "hero-title",
+          "type": "text",
+          "content": "Transform Your Business with AI-Powered Analytics",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-subtitle",
+          "type": "text",
+          "content": "Get real-time insights and make data-driven decisions in minutes, not hours. Trusted by 10,000+ companies worldwide.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#94a3b8",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-cta",
+          "type": "button",
+          "text": "Start Free Trial",
+          "href": "#signup",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#3b82f6",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": { "top": 16, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-note",
+          "type": "text",
+          "content": "No credit card required • 14-day free trial",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "color": "#64748b",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 0, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "features-section",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "features-title",
+          "type": "text",
+          "content": "Everything you need to succeed",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#0f172a",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-1",
+          "type": "text",
+          "content": "⚡ Real-time Analytics - Track your metrics as they happen with live dashboards and instant notifications.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#334155",
+            "textAlign": "center",
+            "padding": { "top": 16, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-2",
+          "type": "text",
+          "content": "🔒 Enterprise Security - Bank-level encryption and SOC 2 compliance to keep your data safe.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#334155",
+            "textAlign": "center",
+            "padding": { "top": 16, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "feature-3",
+          "type": "text",
+          "content": "🚀 Fast Integration - Connect your tools in minutes with our pre-built integrations and APIs.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#334155",
+            "textAlign": "center",
+            "padding": { "top": 16, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "testimonial-section",
+      "style": {
+        "backgroundColor": "#f8fafc",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "testimonial-quote",
+          "type": "text",
+          "content": "\"This platform has completely transformed how we make decisions. We've cut our reporting time by 80% and our team is more aligned than ever.\"",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 400,
+            "fontStyle": "italic",
+            "color": "#1e293b",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "testimonial-author",
+          "type": "text",
+          "content": "— Sarah Chen, VP of Product at TechCorp",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "color": "#64748b",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 0, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "style": {
+        "backgroundColor": "#3b82f6",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "cta-title",
+          "type": "text",
+          "content": "Ready to get started?",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "cta-subtitle",
+          "type": "text",
+          "content": "Join thousands of companies already using our platform",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#dbeafe",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "cta-button",
+          "type": "button",
+          "text": "Get Started Free",
+          "href": "#signup",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#ffffff",
+            "color": "#3b82f6",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": { "top": 16, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    }
+  ]
+}

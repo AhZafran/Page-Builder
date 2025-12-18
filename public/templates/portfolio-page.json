@@ -1,0 +1,292 @@
+{
+  "id": "template-portfolio-001",
+  "name": "Portfolio Page",
+  "slug": "portfolio-page",
+  "sections": [
+    {
+      "id": "hero-section",
+      "style": {
+        "backgroundColor": "#1e1e1e",
+        "padding": { "top": 120, "right": 24, "bottom": 120, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "hero-greeting",
+          "type": "text",
+          "content": "Hi, I'm Alex Morgan",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 500,
+            "color": "#10b981",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-title",
+          "type": "text",
+          "content": "Product Designer & Creative Developer",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 56,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 24, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-description",
+          "type": "text",
+          "content": "I craft beautiful digital experiences that people love to use. Specializing in UI/UX design, web development, and brand identity.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#a3a3a3",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 32, "bottom": 16, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 40, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-cta",
+          "type": "button",
+          "text": "View My Work",
+          "href": "#projects",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#10b981",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": { "top": 14, "right": 32, "bottom": 14, "left": 32 },
+            "margin": { "top": 0, "right": 8, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "about-section",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "about-title",
+          "type": "text",
+          "content": "About Me",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#1e1e1e",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "about-content",
+          "type": "text",
+          "content": "With over 8 years of experience in design and development, I've helped startups and Fortune 500 companies create digital products that make a difference. My approach combines user-centered design with cutting-edge technology to deliver exceptional results.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#525252",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 48, "bottom": 16, "left": 48 },
+            "margin": { "top": 0, "right": 0, "bottom": 40, "left": 0 }
+          }
+        },
+        {
+          "id": "skills-title",
+          "type": "text",
+          "content": "Skills & Expertise",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 24,
+            "fontWeight": 600,
+            "color": "#1e1e1e",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "skills-list",
+          "type": "text",
+          "content": "UI/UX Design • Web Development • React & Next.js • Figma • Adobe Creative Suite • Brand Identity • Motion Design",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "color": "#737373",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 24, "bottom": 0, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "projects-section",
+      "style": {
+        "backgroundColor": "#f5f5f5",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "projects-title",
+          "type": "text",
+          "content": "Featured Projects",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#1e1e1e",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "project-1",
+          "type": "text",
+          "content": "🎨 EcoCommerce Redesign\nA complete redesign of an e-commerce platform that increased conversions by 45% and improved user satisfaction scores.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#404040",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "project-2",
+          "type": "text",
+          "content": "📱 HealthTrack Mobile App\nDesigned and developed a fitness tracking app with 100k+ downloads and 4.8★ rating on app stores.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#404040",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "project-3",
+          "type": "text",
+          "content": "🏢 Corporate Branding Suite\nCreated a complete brand identity system for a fintech startup, including logo, website, and marketing materials.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#404040",
+            "textAlign": "center",
+            "backgroundColor": "#ffffff",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact-section",
+      "style": {
+        "backgroundColor": "#1e1e1e",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "contact-title",
+          "type": "text",
+          "content": "Let's Work Together",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "contact-description",
+          "type": "text",
+          "content": "Have a project in mind? I'd love to hear about it. Let's create something amazing together.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#a3a3a3",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 32, "bottom": 16, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 32, "left": 0 }
+          }
+        },
+        {
+          "id": "contact-button",
+          "type": "button",
+          "text": "Get In Touch",
+          "href": "mailto:hello@alexmorgan.com",
+          "target": "_blank",
+          "style": {
+            "backgroundColor": "#10b981",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 8,
+            "layout": "center",
+            "padding": { "top": 14, "right": 32, "bottom": 14, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    }
+  ]
+}

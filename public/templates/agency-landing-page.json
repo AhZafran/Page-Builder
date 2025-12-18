@@ -1,0 +1,278 @@
+{
+  "id": "template-agency-001",
+  "name": "Agency Landing Page",
+  "slug": "agency-landing-page",
+  "sections": [
+    {
+      "id": "hero-section",
+      "style": {
+        "backgroundColor": "#000000",
+        "padding": { "top": 120, "right": 24, "bottom": 120, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "hero-eyebrow",
+          "type": "text",
+          "content": "CREATIVE AGENCY",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 14,
+            "fontWeight": 700,
+            "color": "#a855f7",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 8, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-title",
+          "type": "text",
+          "content": "We Build Brands That Matter",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 56,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-subtitle",
+          "type": "text",
+          "content": "Full-service digital agency specializing in branding, web design, and creative strategy. We transform ideas into unforgettable experiences.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#a3a3a3",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 32, "bottom": 16, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 40, "left": 0 }
+          }
+        },
+        {
+          "id": "hero-cta",
+          "type": "button",
+          "text": "Start Your Project",
+          "href": "#contact",
+          "target": "_self",
+          "style": {
+            "backgroundColor": "#a855f7",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 50,
+            "layout": "center",
+            "padding": { "top": 16, "right": 40, "bottom": 16, "left": 40 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "services-section",
+      "style": {
+        "backgroundColor": "#ffffff",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "services-title",
+          "type": "text",
+          "content": "What We Do",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#000000",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "service-1",
+          "type": "text",
+          "content": "🎨 Brand Identity\nWe create cohesive brand systems that tell your story and resonate with your audience. From logos to brand guidelines.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#262626",
+            "textAlign": "center",
+            "backgroundColor": "#fafafa",
+            "padding": { "top": 32, "right": 32, "bottom": 32, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "service-2",
+          "type": "text",
+          "content": "💻 Web Design & Development\nBeautiful, responsive websites that convert. We blend stunning design with powerful functionality.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#262626",
+            "textAlign": "center",
+            "backgroundColor": "#fafafa",
+            "padding": { "top": 32, "right": 32, "bottom": 32, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "service-3",
+          "type": "text",
+          "content": "📈 Digital Strategy\nData-driven strategies that help your brand grow. From social media to content marketing and beyond.",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#262626",
+            "textAlign": "center",
+            "backgroundColor": "#fafafa",
+            "padding": { "top": 32, "right": 32, "bottom": 32, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "portfolio-section",
+      "style": {
+        "backgroundColor": "#fafafa",
+        "padding": { "top": 80, "right": 24, "bottom": 80, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "portfolio-title",
+          "type": "text",
+          "content": "Selected Work",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 40,
+            "fontWeight": 700,
+            "color": "#000000",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 16, "left": 0 }
+          }
+        },
+        {
+          "id": "portfolio-subtitle",
+          "type": "text",
+          "content": "Trusted by innovative companies worldwide",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#525252",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 48, "left": 0 }
+          }
+        },
+        {
+          "id": "client-stats",
+          "type": "text",
+          "content": "150+ Projects Delivered • 98% Client Satisfaction • 50+ Industry Awards",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "color": "#a855f7",
+            "textAlign": "center",
+            "padding": { "top": 24, "right": 32, "bottom": 24, "left": 32 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "style": {
+        "backgroundColor": "#000000",
+        "padding": { "top": 100, "right": 24, "bottom": 100, "left": 24 },
+        "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 },
+        "flex": {
+          "direction": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "wrap": "nowrap"
+        }
+      },
+      "blocks": [
+        {
+          "id": "cta-title",
+          "type": "text",
+          "content": "Ready to Make an Impact?",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 48,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 16, "bottom": 16, "left": 16 },
+            "margin": { "top": 0, "right": 0, "bottom": 24, "left": 0 }
+          }
+        },
+        {
+          "id": "cta-subtitle",
+          "type": "text",
+          "content": "Let's collaborate and create something extraordinary together",
+          "style": {
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "fontSize": 20,
+            "fontWeight": 400,
+            "color": "#a3a3a3",
+            "textAlign": "center",
+            "padding": { "top": 0, "right": 24, "bottom": 16, "left": 24 },
+            "margin": { "top": 0, "right": 0, "bottom": 40, "left": 0 }
+          }
+        },
+        {
+          "id": "cta-button",
+          "type": "button",
+          "text": "Get in Touch",
+          "href": "mailto:hello@agency.com",
+          "target": "_blank",
+          "style": {
+            "backgroundColor": "#a855f7",
+            "color": "#ffffff",
+            "fontSize": 18,
+            "fontWeight": 600,
+            "fontFamily": "system-ui, -apple-system, sans-serif",
+            "borderRadius": 50,
+            "layout": "center",
+            "padding": { "top": 16, "right": 40, "bottom": 16, "left": 40 },
+            "margin": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+          }
+        }
+      ]
+    }
+  ]
+}
